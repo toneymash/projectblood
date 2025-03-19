@@ -1,27 +1,14 @@
-import React from 'react'
-import { Link, useNavigate } from 'react-router-dom'
-import {
-  LayoutDashboard,
-  Users,
-  Bell,
-  Settings,
-  LogOut,
-  Heart,
-  UserPlus,
-  UserMinus,
-  Activity,
-  FileText,
-  MessageCircle,
-  HelpCircle,
-  Download
-} from 'lucide-react'
-import { LineChart, BarChart, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Line, Bar } from 'recharts'
+import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import { LayoutDashboard, Users, Bell, Heart, MessageCircle, FileText, HelpCircle, Download } from 'lucide-react';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-const data = [
-  { name: 'Group A', value: 400 },
-  { name: 'Group B', value: 300 },
-  { name: 'Group C', value: 200 },
-  { name: 'Group D', value: 150 }
+const images = [
+  '/images/1.jpg',
+  '/images/2.jpg',
+  '/images/3.jpg',
+  '/images/4.jpg',
 ];
 
 const StatCard = ({ title, value, icon: Icon, color }) => (
@@ -63,14 +50,6 @@ function Home() {
       case 'Our Team':
         navigate('/team');
         break;
-      case 'Sign Out':
-        navigate('/login');
-        break;
-        case 'Settings':
-        navigate('/settings');
-        break;
-       
-        
       case 'Home':
         navigate('/');
         break;
@@ -92,9 +71,7 @@ function Home() {
           {[{ name: 'Home', icon: LayoutDashboard },
             { name: 'Our Team', icon: Users },
             { name: 'Notifications', icon: Bell },
-            { name: 'Contact Us', icon: MessageCircle },
-            { name: 'Settings', icon: Settings },
-            { name: 'Sign Out', icon: LogOut }].map((item, index) => (
+            { name: 'Contact Us', icon: MessageCircle }].map((item, index) => (
             <div 
               key={index} 
               onClick={() => handleNavClick(item.name)}
@@ -113,11 +90,12 @@ function Home() {
             Donate<Heart className='ml-2 text-red-500' fill='currentColor' />
           </span></div>
           <div className='flex items-center space-x-4'>
-            <select className='border rounded p-1'>
-              <option>Eng (US)</option>
-              <option>French (FR)</option>
-              <option>Swahili (SW)</option>
-            </select>
+            <button 
+              className='bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition'
+              onClick={() => navigate('/hospital')}
+            >
+              Hospital Requests
+            </button>
             <div className='w-8 h-8 bg-gray-300 rounded-full' />
             <div className='flex space-x-2'>
               <Link to="/login" className='text-blue-600 hover:bg-blue-50 px-3 py-1 rounded transition-colors duration-200'>
@@ -130,29 +108,14 @@ function Home() {
           </div>
         </div>
         <div className='p-8'>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-            <StatCard title="Total Users" value="2,543" icon={Users} color="bg-blue-500" />
-            <StatCard title="New Users" value="145" icon={UserPlus} color="bg-green-500" />
-            <StatCard title="Active Users" value="1,873" icon={Activity} color="bg-purple-500" />
-            <StatCard title="Inactive Users" value="670" icon={UserMinus} color="bg-red-500" />
-          </div>
-          <div className='grid grid-cols-2 gap-4 mb-8'>
-            <LineChart width={500} height={300} data={data}>
-              <XAxis dataKey="name" />
-              <YAxis />
-              <CartesianGrid strokeDasharray="3 3" />
-              <Tooltip />
-              <Legend />
-              <Line type="monotone" dataKey="value" stroke="#8884d8" />
-            </LineChart>
-            <BarChart width={500} height={300} data={data}>
-              <XAxis dataKey="name" />
-              <YAxis />
-              <CartesianGrid strokeDasharray="3 3" />
-              <Tooltip />
-              <Legend />
-              <Bar dataKey="value" fill="#8884d8" />
-            </BarChart>
+          <div className="mb-8">
+            <Carousel showThumbs={false} autoPlay infiniteLoop>
+              {images.map((src, index) => (
+                <div key={index}>
+                  <img src={src} alt={`Beneficiary ${index + 1}`} className="w-64 h-80 object-cover rounded-lg shadow-md mx-auto" />
+                </div>
+              ))}
+            </Carousel>
           </div>
           <div className="mb-8">
             <h2 className="text-xl font-bold mb-4">Documentation & Resources</h2>
@@ -165,7 +128,7 @@ function Home() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

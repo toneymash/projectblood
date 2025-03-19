@@ -356,3 +356,32 @@
 2025-03-04T21:44:51.046Z [INFO]: Request ID: 77f1ec4e-f310-4d2b-ad81-79f7431a6974, Duration: 239ms
 2025-03-04T21:46:16.489Z [INFO]: Request ID: fd21f50f-4cb0-4746-af6d-01a4e3696cda, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0 POST /api/users/login
 2025-03-04T21:46:16.638Z [INFO]: Request ID: fd21f50f-4cb0-4746-af6d-01a4e3696cda, Duration: 150ms
+2025-03-18T10:22:17.759Z [INFO]: Connecting to the database
+2025-03-18T10:22:17.906Z [INFO]: Connected to the database
+2025-03-18T10:22:18.019Z [INFO]: Server running on: http://192.168.43.13:4000
+2025-03-18T10:28:56.287Z [INFO]: Request ID: fa3086fa-e174-485f-805c-009feac5d0d0, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 POST /api/users/login
+2025-03-18T10:28:56.632Z [INFO]: Request ID: fa3086fa-e174-485f-805c-009feac5d0d0, Duration: 346ms
+2025-03-18T10:33:11.134Z [INFO]: Request ID: 9f2d87fc-102c-4360-a677-fea765d27d81, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 POST /api/users/login
+2025-03-18T10:33:11.267Z [INFO]: Request ID: 9f2d87fc-102c-4360-a677-fea765d27d81, Duration: 134ms
+2025-03-18T11:00:25.349Z [INFO]: Request ID: 20f53ab2-0b57-47f5-bae4-ff5b72db73dd, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 POST /api/users/login
+2025-03-18T11:00:25.485Z [INFO]: Request ID: 20f53ab2-0b57-47f5-bae4-ff5b72db73dd, Duration: 138ms
+2025-03-18T11:24:01.205Z [INFO]: Request ID: f52a59a3-3fa8-4902-9d60-3d7b82225a05, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 POST /api/users/login
+2025-03-18T11:24:01.346Z [INFO]: Request ID: f52a59a3-3fa8-4902-9d60-3d7b82225a05, Duration: 142ms
+2025-03-18T11:45:37.187Z [INFO]: Request ID: 63a41f73-ccda-468a-aedb-bfd543d6d30c, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 POST /api/users/login
+2025-03-18T11:45:37.317Z [INFO]: Request ID: 63a41f73-ccda-468a-aedb-bfd543d6d30c, Duration: 131ms
+2025-03-19T09:26:08.001Z [INFO]: Request ID: eecd638b-eac4-48cd-b0e8-75895a50f439, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 POST /api/users
+2025-03-19T09:26:08.091Z [INFO]: Request ID: eecd638b-eac4-48cd-b0e8-75895a50f439, Duration: 93ms
+2025-03-19T09:26:25.264Z [INFO]: Request ID: ca61d80f-1580-4756-b0f0-f51c12916c4b, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 POST /api/users
+2025-03-19T09:26:25.447Z [INFO]: Request ID: ca61d80f-1580-4756-b0f0-f51c12916c4b, Duration: 183ms
+2025-03-19T09:26:52.488Z [INFO]: Request ID: 13fde7fc-2e3a-47b9-809b-357b20ff81ae, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 POST /api/users/login
+2025-03-19T09:26:52.594Z [INFO]: Request ID: 13fde7fc-2e3a-47b9-809b-357b20ff81ae, Duration: 106ms
+2025-03-19T09:40:12.900Z [INFO]: Request ID: dab0e852-05d0-4f20-a328-c8d4f3ce1867, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 POST /api/users/login
+2025-03-19T09:40:13.061Z [INFO]: Request ID: dab0e852-05d0-4f20-a328-c8d4f3ce1867, Duration: 162ms
+2025-03-19T09:41:50.344Z [INFO]: Request ID: e7731286-37a1-4dd3-9e5c-e46bf73eb38c, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 POST /api/users/login
+2025-03-19T09:41:50.443Z [INFO]: Request ID: e7731286-37a1-4dd3-9e5c-e46bf73eb38c, Duration: 99ms
+2025-03-19T09:43:13.025Z [INFO]: Request ID: 3fcaf0cc-f160-4690-a9f6-9a437906421b, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 POST /api/users/login
+2025-03-19T09:43:13.123Z [INFO]: Request ID: 3fcaf0cc-f160-4690-a9f6-9a437906421b, Duration: 98ms
+2025-03-19T09:45:07.723Z [INFO]: Request ID: 9bb8d45f-7dc9-4787-8d0f-b334695b9656, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 POST /api/users/login
+2025-03-19T09:45:07.923Z [INFO]: Request ID: 9bb8d45f-7dc9-4787-8d0f-b334695b9656, Duration: 200ms
+2025-03-19T10:25:40.436Z [INFO]: Request ID: 591b846b-2516-440e-bc80-84852e4d5594, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 POST /api/users/login
+2025-03-19T10:25:40.601Z [INFO]: Request ID: 591b846b-2516-440e-bc80-84852e4d5594, Duration: 168ms

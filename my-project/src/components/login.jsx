@@ -1,8 +1,9 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Loader2, X } from "lucide-react";
 
 const Login = () => {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     email: "",
     password: "",
@@ -22,8 +23,7 @@ const Login = () => {
     setError("");
 
     try {
-      
-      const response = await fetch(`http://localhost:4000/api/users/login`, {
+      const response = await fetch("http://localhost:4000/api/users/login", {
         method: "POST",
         headers: { 
           "Content-Type": "application/json",
@@ -35,24 +35,24 @@ const Login = () => {
       });
 
       const data = await response.json();
-      console.log(data)
+      console.log(data);
 
       if (!response.ok) {
         throw new Error(data.message || "Login failed");
-      }
-
-      else{
+      } else {
+        // Store auth data in localStorage
         localStorage.setItem("token", data.token);
         localStorage.setItem("role", data.role);
-        console.log("Anthony Macharia")
-        // Redirect based on role
-        window.location.href = data.role === "admin" ? "/admin/dashboard" : "/donor/dashboard";
-
-      }
-
+        console.log("Anthony Macharia");
     
-       
-      
+        // Use React Router's navigate instead of window.location
+        if (data.role === "admin") {
+            window.alert("Welcome to the Admin Dashboard");
+            navigate("/admin");
+        } else {
+            navigate("/dashboard");
+        }
+      }
     } catch (error) {
       if (!navigator.onLine) {
         setError("Network error. Please check your internet connection.");
