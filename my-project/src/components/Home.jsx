@@ -53,6 +53,9 @@ function Home() {
       case 'Home':
         navigate('/');
         break;
+        case 'Hospital Requests':  
+        navigate('/hospital');
+        break;
       default:
         break;
     }
