@@ -15,27 +15,82 @@ import Support from "./assets/pages/Support";
 import AdminDashboard from './assets/pages/Admin';
 import HospitalRequestForm from './assets/pages/Hospital request';
 import ContactUs from './components/ContactUs';
+import ProtectedRoute from './components/ProtectedRoute';
+
+// ✅ Add import for admin Home
+import AdminHome from './admin/Home';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/team" element={<TeamSection />} />
-        <Route path="/settings" element={<Settings />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/donation-schedule" element={<DonationSchedule />} />
-        <Route path="/health-info" element={<HealthInfo />} />
-        <Route path="/community" element={<Community />} />
-        <Route path="/rewards" element={<Rewards />} />
-        <Route path="/alerts" element={<Alerts />} />
+        <Route path="/team" element={<TeamSection />} />
+        <Route path="/settings" element={<Settings />} />
         <Route path="/contactus" element={<ContactUs />} />
-        <Route path="/education" element={<Education />} />
-        <Route path="/support" element={<Support />} />
-        <Route path="/hospital" element={<HospitalRequestForm />} />
-        <Route path="/admin" element={<AdminDashboard />} />
+
+        {/* 🔐 Protected user routes */}
+        <Route path="/dashboard" element={
+          <ProtectedRoute>
+            <Dashboard />
+          </ProtectedRoute>
+        } />
+        <Route path="/donation-schedule" element={
+          <ProtectedRoute>
+            <DonationSchedule />
+          </ProtectedRoute>
+        } />
+        <Route path="/health-info" element={
+          <ProtectedRoute>
+            <HealthInfo />
+          </ProtectedRoute>
+        } />
+        <Route path="/community" element={
+          <ProtectedRoute>
+            <Community />
+          </ProtectedRoute>
+        } />
+        <Route path="/rewards" element={
+          <ProtectedRoute>
+            <Rewards />
+          </ProtectedRoute>
+        } />
+        <Route path="/alerts" element={
+          <ProtectedRoute>
+            <Alerts />
+          </ProtectedRoute>
+        } />
+        <Route path="/education" element={
+          <ProtectedRoute>
+            <Education />
+          </ProtectedRoute>
+        } />
+        <Route path="/support" element={
+          <ProtectedRoute>
+            <Support />
+          </ProtectedRoute>
+        } />
+        <Route path="/hospital" element={
+          <ProtectedRoute>
+            <HospitalRequestForm />
+          </ProtectedRoute>
+        } />
+
+        {/* 🔐 Admin-only route */}
+        <Route path="/admin" element={
+          <ProtectedRoute requiredRole="admin">
+            <AdminDashboard />
+          </ProtectedRoute>
+        } />
+
+        {/* ✅ New Admin Home Route */}
+        <Route path="/admin/home" element={
+          <ProtectedRoute requiredRole="admin">
+            <AdminHome />
+          </ProtectedRoute>
+        } />
       </Routes>
     </BrowserRouter>
   );

@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Loader2, X } from "lucide-react";
+import { jwtDecode } from "jwt-decode"; // Correct import
 
 const Login = () => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     email: "",
-    password: "",
-    role: "user" // Default role
+    password: ""
   });
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState("");
@@ -39,21 +39,24 @@ const Login = () => {
 
       if (!response.ok) {
         throw new Error(data.message || "Login failed");
-      } else {
-        // Store auth data in localStorage
-        localStorage.setItem("token", data.token);
-        localStorage.setItem("role", data.role);
-        console.log("Anthony Macharia");
-
-        // Use React Router's navigate instead of window.location
-        if (data.role === "admin") {
-          window.alert("Welcome to the Admin Dashboard");
-          navigate("/admin");
-        } else {
-          navigate("/dashboard");
-        }
-
       }
+
+      // ✅ Decode the JWT token to get user role
+      const decoded = jwtDecode(data.token); // Fixed variable name here
+      const role = decoded.Role;
+
+      // ✅ Store token and role in localStorage
+      localStorage.setItem("token", data.token);
+      localStorage.setItem("role", role);
+
+      // ✅ Redirect based on role
+      if (role === "admin") {
+        window.alert("Welcome to the Admin Dashboard");
+        navigate("/admin");
+      } else {
+        navigate("/dashboard");
+      }
+
     } catch (error) {
       if (!navigator.onLine) {
         setError("Network error. Please check your internet connection.");
@@ -87,22 +90,6 @@ const Login = () => {
             </div>
           </div>
         )}
-
-        <div className="mb-4">
-          <label className="block text-sm font-medium text-gray-700 mb-1">
-            Login As
-          </label>
-          <select
-            name="role"
-            onChange={handleChange}
-            value={formData.role}
-            className="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-            disabled={isLoading}
-          >
-            <option value="user">Donor</option>
-            <option value="admin">Administrator</option>
-          </select>
-        </div>
 
         <div className="mb-4">
           <label className="block text-sm font-medium text-gray-700 mb-1">
