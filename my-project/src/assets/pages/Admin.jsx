@@ -1,86 +1,127 @@
 import { useState } from "react";
+import {
+  LayoutDashboard, Users, BookOpen, HeartPulse, MessageCircle, AlertTriangle, Gift, LifeBuoy, Building2
+} from "lucide-react";
 
 const AdminDashboard = () => {
-  const [activeTab, setActiveTab] = useState("requests");
+  const [activeTab, setActiveTab] = useState("home");
+
+  const tabs = [
+    { key: "home", label: "Home", icon: <LayoutDashboard size={18} /> },
+    { key: "requests", label: "Requests", icon: <Building2 size={18} /> },
+    { key: "donations", label: "Donations", icon: <HeartPulse size={18} /> },
+    { key: "education", label: "Education", icon: <BookOpen size={18} /> },
+    { key: "support", label: "Support", icon: <LifeBuoy size={18} /> },
+    { key: "health", label: "Health Info", icon: <Users size={18} /> },
+    { key: "community", label: "Community", icon: <MessageCircle size={18} /> },
+    { key: "alerts", label: "Alerts", icon: <AlertTriangle size={18} /> },
+    { key: "rewards", label: "Rewards", icon: <Gift size={18} /> }
+  ];
 
   return (
-    <div className="p-6 bg-gray-100 min-h-screen">
-      <h1 className="text-3xl font-bold text-center mb-6">Admin Dashboard</h1>
-      
-      <div className="flex space-x-4 justify-center mb-6">
-        {[
-          "Requests", "Donations", "Education", "Support", "Health Info", "Community", "Alerts"
-        ].map((tab) => (
+    <div className="min-h-screen bg-gradient-to-br from-red-50 via-white to-blue-50 p-6">
+      <h1 className="text-4xl font-extrabold text-center text-red-600 mb-8 drop-shadow-sm">
+        Admin Dashboard
+      </h1>
+
+      <div className="flex flex-wrap justify-center gap-3 mb-8">
+        {tabs.map(({ key, label, icon }) => (
           <button
-            key={tab}
-            className={`px-4 py-2 rounded-md ${activeTab === tab.toLowerCase() ? "bg-blue-500 text-white" : "bg-gray-300 text-black"}`}
-            onClick={() => setActiveTab(tab.toLowerCase())}
+            key={key}
+            onClick={() => setActiveTab(key)}
+            className={`flex items-center gap-2 px-4 py-2 rounded-full shadow-sm text-sm font-medium transition-all duration-300 ${activeTab === key
+                ? "bg-red-500 text-white shadow-md"
+                : "bg-white text-gray-700 hover:bg-red-100"
+              }`}
           >
-            {tab}
+            {icon}
+            {label}
           </button>
         ))}
       </div>
 
-      <div className="bg-white p-4 rounded-lg shadow-md">
+      <div className="bg-white p-6 rounded-2xl shadow-xl max-w-4xl mx-auto animate-fadeIn">
+        {activeTab === "home" && <Home />}
         {activeTab === "requests" && <BloodRequests />}
         {activeTab === "donations" && <Donations />}
         {activeTab === "education" && <Education />}
         {activeTab === "support" && <Support />}
-        {activeTab === "health info" && <HealthInfo />}
+        {activeTab === "health" && <HealthInfo />}
         {activeTab === "community" && <Community />}
         {activeTab === "alerts" && <Alerts />}
+        {activeTab === "rewards" && <Rewards />}
       </div>
     </div>
   );
 };
 
-const BloodRequests = () => (
+// Reusable card layout
+const SectionCard = ({ title, children }) => (
   <div>
-    <h2 className="text-xl font-semibold mb-4">Blood Requests</h2>
-    <p>Manage incoming blood requests from hospitals.</p>
+    <h2 className="text-2xl font-semibold text-red-600 mb-4">{title}</h2>
+    <div className="p-4 bg-red-50 rounded-lg border border-red-100 shadow-inner text-gray-800">
+      {children}
+    </div>
   </div>
+);
+
+const Home = () => (
+  <SectionCard title="Home Overview">
+    <p className="mb-2">Update dashboard metrics like:</p>
+    <ul className="list-disc list-inside space-y-1">
+      <li>✅ Lives Saved</li>
+      <li>✅ Active Donors</li>
+      <li>✅ Total Donations</li>
+    </ul>
+  </SectionCard>
+);
+
+const BloodRequests = () => (
+  <SectionCard title="Blood Requests">
+    <p>Manage incoming blood requests from hospitals with details like blood type, urgency, and hospital name.</p>
+  </SectionCard>
 );
 
 const Donations = () => (
-  <div>
-    <h2 className="text-xl font-semibold mb-4">Donations</h2>
-    <p>View and manage scheduled donations.</p>
-  </div>
+  <SectionCard title="Donations">
+    <p>View and manage donor appointments and scheduled donations.</p>
+  </SectionCard>
 );
 
 const Education = () => (
-  <div>
-    <h2 className="text-xl font-semibold mb-4">Education</h2>
-    <p>Manage educational content on blood donation.</p>
-  </div>
+  <SectionCard title="Education Content">
+    <p>Publish and manage informational posts on the importance of blood donation and donor eligibility.</p>
+  </SectionCard>
 );
 
 const Support = () => (
-  <div>
-    <h2 className="text-xl font-semibold mb-4">Support</h2>
-    <p>Handle user inquiries and support requests.</p>
-  </div>
+  <SectionCard title="Support Center">
+    <p>Resolve queries, respond to FAQs, and provide live support to users.</p>
+  </SectionCard>
 );
 
 const HealthInfo = () => (
-  <div>
-    <h2 className="text-xl font-semibold mb-4">Health Information</h2>
-    <p>Provide and update health-related information.</p>
-  </div>
+  <SectionCard title="Health Info">
+    <p>Update wellness guidelines and pre-donation preparation resources.</p>
+  </SectionCard>
 );
 
 const Community = () => (
-  <div>
-    <h2 className="text-xl font-semibold mb-4">Community</h2>
-    <p>Manage community discussions and events.</p>
-  </div>
+  <SectionCard title="Community">
+    <p>Manage events, forums, and user-driven initiatives to spread awareness.</p>
+  </SectionCard>
 );
 
 const Alerts = () => (
-  <div>
-    <h2 className="text-xl font-semibold mb-4">Alerts</h2>
-    <p>Send emergency alerts for urgent blood donations.</p>
-  </div>
+  <SectionCard title="Emergency Alerts">
+    <p>Send alerts for urgent blood needs and critical shortages to nearby donors.</p>
+  </SectionCard>
+);
+
+const Rewards = () => (
+  <SectionCard title="Rewards">
+    <p>Manage donor badges, milestone achievements, and redemption offers.</p>
+  </SectionCard>
 );
 
 export default AdminDashboard;

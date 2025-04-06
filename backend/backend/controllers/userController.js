@@ -1,6 +1,6 @@
-
-import User from "../models/User.js";
+import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
+import User from "../models/User.js";
 
 // Create a new user
 export const createUser = async (req, res) => {
@@ -106,7 +106,18 @@ export const loginUser = async (req, res) => {
       Role: user.Role,
     };
 
-    res.status(200).json({ message: "Login successful", user: userData });
+    // Generate JWT token
+    const token = jwt.sign(
+      { UserID: user.UserID, Role: user.Role }, // Payload (UserID and Role)
+      process.env.JWT_SECRET, // Secret key (store in .env file)
+      { expiresIn: "1h" } // Token expires in 1 hour
+    );
+
+    res.status(200).json({
+      message: "Login successful",
+      user: userData,
+      token: token, // Send the token to the client
+    });
   } catch (error) {
     console.log(error)
     res.status(500).json({ message: "Error logging in", error: error.message });

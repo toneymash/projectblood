@@ -14,6 +14,7 @@ import Education from "./assets/pages/Education";
 import Support from "./assets/pages/Support";
 import AdminDashboard from './assets/pages/Admin';
 import HospitalRequestForm from './assets/pages/Hospital request';
+import ContactUs from './components/ContactUs';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/community" element={<Community />} />
         <Route path="/rewards" element={<Rewards />} />
         <Route path="/alerts" element={<Alerts />} />
+        <Route path="/contactus" element={<ContactUs />} />
         <Route path="/education" element={<Education />} />
         <Route path="/support" element={<Support />} />
         <Route path="/hospital" element={<HospitalRequestForm />} />

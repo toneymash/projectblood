@@ -430,3 +430,138 @@
 2025-03-20T09:32:57.264Z [INFO]: Connecting to the database
 2025-03-20T09:32:57.408Z [INFO]: Connected to the database
 2025-03-20T09:32:57.480Z [INFO]: Server running on: http://192.168.43.13:4000
+2025-04-04T17:56:52.621Z [INFO]: Connecting to the database
+2025-04-04T17:56:52.753Z [INFO]: Connected to the database
+2025-04-04T17:56:52.880Z [INFO]: Server running on: http://192.168.43.83:4000
+2025-04-05T09:15:14.516Z [INFO]: Connecting to the database
+2025-04-05T09:15:14.653Z [INFO]: Connected to the database
+2025-04-05T09:15:14.776Z [INFO]: Server running on: http://172.16.15.165:4000
+2025-04-05T09:16:34.852Z [INFO]: Request ID: 05cf6cc8-1a59-4f65-a285-22163cb1a173, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 POST /api/users
+2025-04-05T09:16:35.027Z [INFO]: Request ID: 05cf6cc8-1a59-4f65-a285-22163cb1a173, Duration: 176ms
+2025-04-05T09:17:23.333Z [INFO]: Request ID: a18a3eaa-fa23-4aba-bc29-50ebac3a490b, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 POST /api/users
+2025-04-05T09:17:23.513Z [INFO]: Request ID: a18a3eaa-fa23-4aba-bc29-50ebac3a490b, Duration: 180ms
+2025-04-05T09:17:43.973Z [INFO]: Request ID: a699f77d-96a5-436b-9134-6bb1971c9cb3, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 POST /api/users/login
+2025-04-05T09:17:44.142Z [INFO]: Request ID: a699f77d-96a5-436b-9134-6bb1971c9cb3, Duration: 170ms
+2025-04-05T10:14:09.367Z [INFO]: Request ID: 22a16e09-cf1f-4f2c-b982-ca64990e7b6a, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 POST /api/users/login
+2025-04-05T10:14:09.691Z [INFO]: Request ID: 22a16e09-cf1f-4f2c-b982-ca64990e7b6a, Duration: 329ms
+2025-04-05T10:14:16.278Z [INFO]: Request ID: b5887090-9752-4b03-918a-bd62eae0d829, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 POST /api/users/login
+2025-04-05T10:14:16.415Z [INFO]: Request ID: b5887090-9752-4b03-918a-bd62eae0d829, Duration: 137ms
+2025-04-05T10:26:02.238Z [INFO]: Connecting to the database
+2025-04-05T10:26:02.393Z [INFO]: Connected to the database
+2025-04-05T10:26:02.489Z [INFO]: Server running on: http://10.10.41.72:4000
+2025-04-05T10:26:36.584Z [INFO]: Request ID: 85f9e959-3206-43fc-97d5-6a35195bb456, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0 POST /api/users/login
+2025-04-05T10:26:36.748Z [INFO]: Request ID: 85f9e959-3206-43fc-97d5-6a35195bb456, Duration: 164ms
+2025-04-05T10:35:06.776Z [INFO]: Request ID: 71bae2fb-df6c-4b3c-abfe-d3df73033e42, IP: ::1, User Agent: PostmanRuntime/7.43.2 POST /api/users/login
+2025-04-05T10:35:06.800Z [INFO]: Request ID: 71bae2fb-df6c-4b3c-abfe-d3df73033e42, Duration: 24ms
+2025-04-05T10:39:43.938Z [INFO]: Request ID: 8549217e-3d07-4e3a-807f-630fa80048b8, IP: ::1, User Agent: PostmanRuntime/7.43.2 POST /api/users/login
+2025-04-05T10:39:43.953Z [INFO]: Request ID: 8549217e-3d07-4e3a-807f-630fa80048b8, Duration: 15ms
+2025-04-05T10:39:46.670Z [INFO]: Request ID: 64366c8f-e316-4017-9efe-bbbff9a35c82, IP: ::1, User Agent: PostmanRuntime/7.43.2 POST /api/users/login
+2025-04-05T10:39:46.681Z [INFO]: Request ID: 64366c8f-e316-4017-9efe-bbbff9a35c82, Duration: 11ms
+2025-04-05T10:40:17.837Z [INFO]: Request ID: 40405c97-ed3a-4df6-88a8-1f3a385bc442, IP: ::1, User Agent: PostmanRuntime/7.43.2 POST /api/users/login
+2025-04-05T10:40:17.847Z [INFO]: Request ID: 40405c97-ed3a-4df6-88a8-1f3a385bc442, Duration: 10ms
+2025-04-05T10:40:54.365Z [INFO]: Request ID: 94a8e06a-cf9a-4deb-8dc8-a4040b256afa, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0 POST /api/users/login
+2025-04-05T10:40:54.586Z [INFO]: Request ID: 94a8e06a-cf9a-4deb-8dc8-a4040b256afa, Duration: 222ms
+2025-04-05T10:41:51.845Z [INFO]: Request ID: 78d28285-c5f1-45c1-8c40-8877efab9604, IP: ::1, User Agent: PostmanRuntime/7.43.2 POST /api/users/login
+2025-04-05T10:41:51.861Z [INFO]: Request ID: 78d28285-c5f1-45c1-8c40-8877efab9604, Duration: 16ms
+2025-04-05T10:41:59.276Z [INFO]: Request ID: 93483ac7-14bf-4852-9fe9-21eee05551e2, IP: ::1, User Agent: PostmanRuntime/7.43.2 POST /api/users/login
+2025-04-05T10:41:59.448Z [INFO]: Request ID: 93483ac7-14bf-4852-9fe9-21eee05551e2, Duration: 172ms
+2025-04-05T10:45:39.803Z [INFO]: Connecting to the database
+2025-04-05T10:45:39.946Z [INFO]: Connected to the database
+2025-04-05T10:45:40.166Z [INFO]: Server running on: http://10.10.41.72:4000
+2025-04-05T10:46:51.054Z [INFO]: Connecting to the database
+2025-04-05T10:46:51.286Z [INFO]: Connected to the database
+2025-04-05T10:46:51.431Z [INFO]: Server running on: http://10.10.41.72:4000
+2025-04-05T10:52:22.615Z [INFO]: Connecting to the database
+2025-04-05T10:52:22.723Z [INFO]: Connected to the database
+2025-04-05T10:52:22.832Z [INFO]: Server running on: http://10.10.41.72:4000
+2025-04-05T10:55:32.453Z [INFO]: Connecting to the database
+2025-04-05T10:55:33.257Z [INFO]: Connected to the database
+2025-04-05T10:55:33.853Z [INFO]: Server running on: http://10.10.41.72:4000
+2025-04-05T10:55:59.757Z [INFO]: Connecting to the database
+2025-04-05T10:56:00.139Z [INFO]: Connected to the database
+2025-04-05T10:56:12.586Z [INFO]: Request ID: 49616e00-d4ab-4285-87eb-23f57c88bca3, IP: ::1, User Agent: PostmanRuntime/7.43.2 POST /api/users/login
+2025-04-05T10:56:12.831Z [INFO]: Request ID: 49616e00-d4ab-4285-87eb-23f57c88bca3, Duration: 245ms
+2025-04-05T10:56:17.591Z [INFO]: Request ID: 35517398-10b4-48a1-9e09-3e4e5b9012e3, IP: ::1, User Agent: PostmanRuntime/7.43.2 POST /api/users/login
+2025-04-05T10:56:17.801Z [INFO]: Request ID: 35517398-10b4-48a1-9e09-3e4e5b9012e3, Duration: 210ms
+2025-04-05T10:57:40.002Z [INFO]: Request ID: 0dd49a1d-f1da-43d8-9f1f-30517cc8be6a, IP: ::1, User Agent: PostmanRuntime/7.43.2 POST /api/users/login
+2025-04-05T10:57:40.227Z [INFO]: Request ID: 0dd49a1d-f1da-43d8-9f1f-30517cc8be6a, Duration: 225ms
+2025-04-05T10:57:43.631Z [INFO]: Request ID: 6a55503a-c9c6-4287-b685-07cd331e6779, IP: ::1, User Agent: PostmanRuntime/7.43.2 POST /api/users/login
+2025-04-05T10:57:43.803Z [INFO]: Request ID: 6a55503a-c9c6-4287-b685-07cd331e6779, Duration: 172ms
+2025-04-05T10:58:24.489Z [INFO]: Connecting to the database
+2025-04-05T10:58:24.667Z [INFO]: Connected to the database
+2025-04-05T10:58:46.869Z [INFO]: Request ID: c61f69ea-19a3-4b9a-952f-d0676b9aa72a, IP: ::1, User Agent: PostmanRuntime/7.43.2 POST /api/users/login
+2025-04-05T10:58:47.086Z [INFO]: Request ID: c61f69ea-19a3-4b9a-952f-d0676b9aa72a, Duration: 217ms
+2025-04-05T10:58:49.833Z [INFO]: Request ID: 1245d1b2-c993-4b31-af60-9214ac3c4dd6, IP: ::1, User Agent: PostmanRuntime/7.43.2 POST /api/users/login
+2025-04-05T10:58:49.970Z [INFO]: Request ID: 1245d1b2-c993-4b31-af60-9214ac3c4dd6, Duration: 137ms
+2025-04-05T11:01:07.452Z [INFO]: Request ID: 1d51f906-366f-499a-b3ea-1c0b1090bea5, IP: ::1, User Agent: PostmanRuntime/7.43.2 POST /api/users/login
+2025-04-05T11:01:07.620Z [INFO]: Request ID: 1d51f906-366f-499a-b3ea-1c0b1090bea5, Duration: 168ms
+2025-04-05T11:01:10.326Z [INFO]: Request ID: 9cf4f2d0-9b77-4a71-90bc-adac42825625, IP: ::1, User Agent: PostmanRuntime/7.43.2 POST /api/users/login
+2025-04-05T11:01:10.467Z [INFO]: Request ID: 9cf4f2d0-9b77-4a71-90bc-adac42825625, Duration: 141ms
+2025-04-05T11:02:39.892Z [INFO]: Request ID: 9ef4611b-f09c-44c1-9059-70faf1f48357, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0 POST /api/users/login
+2025-04-05T11:02:40.064Z [INFO]: Request ID: 9ef4611b-f09c-44c1-9059-70faf1f48357, Duration: 172ms
+2025-04-05T11:07:40.118Z [INFO]: Connecting to the database
+2025-04-05T11:07:40.414Z [INFO]: Connected to the database
+2025-04-05T11:07:40.530Z [INFO]: Server running on: http://10.10.41.72:4000
+2025-04-05T11:09:50.644Z [INFO]: Connecting to the database
+2025-04-05T11:09:50.885Z [INFO]: Connected to the database
+2025-04-05T11:10:02.650Z [INFO]: Request ID: a6d4d3e5-cb02-493c-a80f-1a1f818c2043, IP: ::1, User Agent: PostmanRuntime/7.43.2 POST /api/users/login
+2025-04-05T11:10:02.840Z [INFO]: Request ID: a6d4d3e5-cb02-493c-a80f-1a1f818c2043, Duration: 191ms
+2025-04-05T11:10:10.004Z [INFO]: Request ID: f682fb26-47d7-4571-86d3-adea32c0230b, IP: ::1, User Agent: PostmanRuntime/7.43.2 POST /api/users/login
+2025-04-05T11:10:10.182Z [INFO]: Request ID: f682fb26-47d7-4571-86d3-adea32c0230b, Duration: 178ms
+2025-04-05T11:10:13.254Z [INFO]: Request ID: cb4cbd2e-0089-40be-85ba-7871f60d0629, IP: ::1, User Agent: PostmanRuntime/7.43.2 POST /api/users/login
+2025-04-05T11:10:13.400Z [INFO]: Request ID: cb4cbd2e-0089-40be-85ba-7871f60d0629, Duration: 146ms
+2025-04-05T11:26:19.468Z [INFO]: Request ID: 4857c08b-68e9-4fa2-a39d-6be7be13168d, IP: ::1, User Agent: PostmanRuntime/7.43.2 POST /api/users/login
+2025-04-05T11:26:19.587Z [INFO]: Request ID: 4857c08b-68e9-4fa2-a39d-6be7be13168d, Duration: 119ms
+2025-04-05T11:29:58.239Z [INFO]: Request ID: 23fe8381-c737-4743-a9b4-e9586022a008, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0 POST /api/users/login
+2025-04-05T11:29:58.358Z [INFO]: Request ID: 23fe8381-c737-4743-a9b4-e9586022a008, Duration: 119ms
+2025-04-05T11:32:11.524Z [INFO]: Connecting to the database
+2025-04-05T11:32:11.637Z [INFO]: Connected to the database
+2025-04-05T11:32:11.701Z [INFO]: Server running on: http://10.10.41.72:4000
+2025-04-05T18:21:17.155Z [INFO]: Connecting to the database
+2025-04-05T18:21:17.318Z [INFO]: Connected to the database
+2025-04-05T18:21:17.431Z [INFO]: Server running on: http://192.168.43.83:4000
+2025-04-05T18:23:04.447Z [INFO]: Request ID: 1f97e176-5ad2-45c2-bd4f-6d661686cb64, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 POST /api/users/login
+2025-04-05T18:23:04.761Z [INFO]: Request ID: 1f97e176-5ad2-45c2-bd4f-6d661686cb64, Duration: 314ms
+2025-04-05T18:23:55.356Z [INFO]: Request ID: 5e9a6034-b3fc-4df6-a330-61df74dd3475, IP: ::1, User Agent: PostmanRuntime/7.43.2 POST /api/users/login
+2025-04-05T18:23:55.511Z [INFO]: Request ID: 5e9a6034-b3fc-4df6-a330-61df74dd3475, Duration: 155ms
+2025-04-05T18:32:33.418Z [INFO]: Connecting to the database
+2025-04-05T18:32:33.535Z [INFO]: Connected to the database
+2025-04-05T18:32:33.618Z [INFO]: Server running on: http://192.168.43.83:4000
+2025-04-05T18:37:57.239Z [INFO]: Connecting to the database
+2025-04-05T18:37:57.342Z [INFO]: Connected to the database
+2025-04-05T18:37:57.391Z [ERROR]: port is not defined
+2025-04-05T18:39:28.880Z [INFO]: Connecting to the database
+2025-04-05T18:39:28.982Z [INFO]: Connected to the database
+2025-04-05T18:39:29.030Z [ERROR]: port is not defined
+2025-04-05T18:41:18.535Z [INFO]: Connecting to the database
+2025-04-05T18:41:18.624Z [INFO]: Connected to the database
+2025-04-05T18:41:18.660Z [ERROR]: port is not defined
+2025-04-05T18:42:04.317Z [INFO]: Connecting to the database
+2025-04-05T18:42:04.422Z [INFO]: Connected to the database
+2025-04-05T18:42:04.459Z [ERROR]: port is not defined
+2025-04-05T18:44:52.125Z [INFO]: Connecting to the database
+2025-04-05T18:44:52.223Z [INFO]: Connected to the database
+2025-04-05T18:44:52.300Z [ERROR]: port is not defined
+2025-04-05T18:49:41.914Z [INFO]: Connecting to the database
+2025-04-05T18:49:42.020Z [INFO]: Connected to the database
+2025-04-05T18:49:42.105Z [INFO]: Server running on: http://192.168.43.83:4000
+2025-04-05T18:49:56.685Z [INFO]: Request ID: 00e70b44-bfc1-4689-baaf-f14fc6c3cff6, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 POST /api/users/login
+2025-04-05T18:49:56.842Z [INFO]: Request ID: 00e70b44-bfc1-4689-baaf-f14fc6c3cff6, Duration: 157ms
+2025-04-05T18:50:59.765Z [INFO]: Request ID: 0028ea03-f4ed-4878-bc55-962963c67775, IP: ::1, User Agent: PostmanRuntime/7.43.2 POST /api/users/login
+2025-04-05T18:50:59.892Z [INFO]: Request ID: 0028ea03-f4ed-4878-bc55-962963c67775, Duration: 128ms
+2025-04-05T18:51:46.103Z [INFO]: Request ID: 37aa6cf1-c409-4355-9f56-e44d3e7b865e, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 POST /api/users/login
+2025-04-05T18:51:46.114Z [INFO]: Request ID: 37aa6cf1-c409-4355-9f56-e44d3e7b865e, Duration: 11ms
+2025-04-05T18:51:49.106Z [INFO]: Request ID: 019eb7cf-7091-40de-a44f-0caec0ceefce, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 POST /api/users/login
+2025-04-05T18:51:49.114Z [INFO]: Request ID: 019eb7cf-7091-40de-a44f-0caec0ceefce, Duration: 8ms
+2025-04-05T18:52:31.409Z [INFO]: Request ID: 16743936-4e90-4df3-ba90-04bb20c4b51b, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 POST /api/users
+2025-04-05T18:52:31.607Z [INFO]: Request ID: 16743936-4e90-4df3-ba90-04bb20c4b51b, Duration: 199ms
+2025-04-05T18:52:53.174Z [INFO]: Request ID: dc6246c4-d12f-4af2-915a-c4b4ef81bca9, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 POST /api/users/login
+2025-04-05T18:52:53.392Z [INFO]: Request ID: dc6246c4-d12f-4af2-915a-c4b4ef81bca9, Duration: 219ms
+2025-04-05T18:56:11.597Z [INFO]: Request ID: 51dffd9d-2dfa-483a-847d-d1d42e052afe, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 POST /api/users/login
+2025-04-05T18:56:11.769Z [INFO]: Request ID: 51dffd9d-2dfa-483a-847d-d1d42e052afe, Duration: 172ms
+2025-04-05T18:56:59.605Z [INFO]: Request ID: 08956696-f883-4f73-afc1-87fefc9dfbd3, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 POST /api/users/login
+2025-04-05T18:56:59.774Z [INFO]: Request ID: 08956696-f883-4f73-afc1-87fefc9dfbd3, Duration: 169ms
+2025-04-05T19:17:24.008Z [INFO]: Request ID: 145eaf83-1d4e-44ee-85f5-869e38f97993, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 POST /api/users/login
+2025-04-05T19:17:24.145Z [INFO]: Request ID: 145eaf83-1d4e-44ee-85f5-869e38f97993, Duration: 137ms
+2025-04-05T19:21:11.853Z [INFO]: Request ID: 759bb35e-71a6-4cc3-b32c-977522b2d344, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 POST /api/users/login
+2025-04-05T19:21:12.008Z [INFO]: Request ID: 759bb35e-71a6-4cc3-b32c-977522b2d344, Duration: 155ms

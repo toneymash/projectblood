@@ -17,7 +17,7 @@ const Login = () => {
     if (error) setError("");
   };
 
-  const handleSubmit = async (e) => {     
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
     setError("");
@@ -25,10 +25,10 @@ const Login = () => {
     try {
       const response = await fetch("http://localhost:4000/api/users/login", {
         method: "POST",
-        headers: { 
+        headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({  
+        body: JSON.stringify({
           Email: formData.email,
           Password: formData.password
         })
@@ -44,14 +44,15 @@ const Login = () => {
         localStorage.setItem("token", data.token);
         localStorage.setItem("role", data.role);
         console.log("Anthony Macharia");
-    
+
         // Use React Router's navigate instead of window.location
         if (data.role === "admin") {
-            window.alert("Welcome to the Admin Dashboard");
-            navigate("/admin");
+          window.alert("Welcome to the Admin Dashboard");
+          navigate("/admin");
         } else {
-            navigate("/dashboard");
+          navigate("/dashboard");
         }
+
       }
     } catch (error) {
       if (!navigator.onLine) {
@@ -76,7 +77,7 @@ const Login = () => {
           <div className="mb-4 p-4 bg-red-50 border border-red-200 rounded-md">
             <div className="flex items-center justify-between">
               <span className="text-red-800 text-sm">{error}</span>
-              <button 
+              <button
                 type="button"
                 onClick={() => setError("")}
                 className="p-1 hover:bg-red-100 rounded-full transition-colors"
@@ -135,7 +136,7 @@ const Login = () => {
 
         <button
           type="submit"
-          className="w-full p-2 text-white bg-blue-500 rounded flex items-center justify-center disabled:bg-blue-300 hover:bg-blue-600 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+          className="w-full p-2 text-white bg-blue-500 rounded flex items-center justify-center disabled:bg-blue-300 hover:bg-blue-600 transition-colors focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
           disabled={isLoading}
         >
           {isLoading ? (

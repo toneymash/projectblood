@@ -19,6 +19,7 @@ const upload = multer();
 
 // Load environment variables
 dotenv.config();
+process.env.JWT_SECRET = process.env.JWT_SECRET || 'ILSzu94vNszyF+Dr0+27ZscBZievseRSQmbWzEF5AWI=';
 const port = process.env.PORT || 4000;
 
 // Create the Express app
