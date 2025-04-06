@@ -565,3 +565,8 @@
 2025-04-05T19:17:24.145Z [INFO]: Request ID: 145eaf83-1d4e-44ee-85f5-869e38f97993, Duration: 137ms
 2025-04-05T19:21:11.853Z [INFO]: Request ID: 759bb35e-71a6-4cc3-b32c-977522b2d344, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 POST /api/users/login
 2025-04-05T19:21:12.008Z [INFO]: Request ID: 759bb35e-71a6-4cc3-b32c-977522b2d344, Duration: 155ms
+2025-04-06T05:50:02.772Z [INFO]: Connecting to the database
+2025-04-06T05:50:02.991Z [INFO]: Connected to the database
+2025-04-06T05:50:03.161Z [INFO]: Server running on: http://10.0.235.223:4000
+2025-04-06T06:23:51.957Z [INFO]: Request ID: e84acb22-8587-49ab-9d15-fa8d60d5a76d, IP: ::1, User Agent: PostmanRuntime/7.43.2 POST /api/users/login
+2025-04-06T06:23:52.249Z [INFO]: Request ID: e84acb22-8587-49ab-9d15-fa8d60d5a76d, Duration: 294ms
