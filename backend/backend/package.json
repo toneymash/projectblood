@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Edwinngera/Accord-Backend.git"
+    "url": "https://github.com/toneymash/projectblood"
   },
   "author": "Anthony Macharia",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Edwinngera/Accord-Backend/issues"
+    "url": "https://github.com/toneymash/projectblood"
   },
-  "homepage": "https://github.com/Edwinngera/Accord-Backend/issues/#readme",
+  "homepage": "https://github.com/toneymash/projectblood",
   "dependencies": {
     "@azure/msal-node": "^1.16.0",
     "@hapi/joi": "^17.1.1",

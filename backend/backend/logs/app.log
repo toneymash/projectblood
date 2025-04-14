@@ -570,3 +570,386 @@
 2025-04-06T05:50:03.161Z [INFO]: Server running on: http://10.0.235.223:4000
 2025-04-06T06:23:51.957Z [INFO]: Request ID: e84acb22-8587-49ab-9d15-fa8d60d5a76d, IP: ::1, User Agent: PostmanRuntime/7.43.2 POST /api/users/login
 2025-04-06T06:23:52.249Z [INFO]: Request ID: e84acb22-8587-49ab-9d15-fa8d60d5a76d, Duration: 294ms
+2025-04-06T19:44:48.666Z [INFO]: Request ID: 788aa8f6-7974-4abf-a669-22731575c09c, IP: ::1, User Agent: PostmanRuntime/7.43.3 POST /api/users/login
+2025-04-06T19:44:49.097Z [INFO]: Request ID: 788aa8f6-7974-4abf-a669-22731575c09c, Duration: 439ms
+2025-04-06T19:47:47.283Z [INFO]: Request ID: e177a34d-614e-4a1f-a5e2-2d4438126eb6, IP: ::1, User Agent: PostmanRuntime/7.43.3 POST /api/users/login
+2025-04-06T19:47:47.429Z [INFO]: Request ID: e177a34d-614e-4a1f-a5e2-2d4438126eb6, Duration: 147ms
+2025-04-06T19:48:51.872Z [INFO]: Request ID: 6c730292-984d-4fe3-a3a0-b81a45f03a7a, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 POST /api/users/login
+2025-04-06T19:48:52.046Z [INFO]: Request ID: 6c730292-984d-4fe3-a3a0-b81a45f03a7a, Duration: 174ms
+2025-04-06T20:03:57.071Z [INFO]: Request ID: 2b72de67-8d65-4ae9-8205-cb7dce9b3045, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0 POST /api/users/login
+2025-04-06T20:03:57.367Z [INFO]: Request ID: 2b72de67-8d65-4ae9-8205-cb7dce9b3045, Duration: 299ms
+2025-04-06T20:07:16.479Z [INFO]: Request ID: f2ee45e7-c639-434b-8c0d-780f798687c7, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0 POST /api/users/login
+2025-04-06T20:07:16.599Z [INFO]: Request ID: f2ee45e7-c639-434b-8c0d-780f798687c7, Duration: 120ms
+2025-04-06T20:24:33.143Z [INFO]: Request ID: 554cf85d-0bfa-441d-b5ab-cd9779fc0ef5, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0 POST /api/users/login
+2025-04-06T20:24:33.294Z [INFO]: Request ID: 554cf85d-0bfa-441d-b5ab-cd9779fc0ef5, Duration: 152ms
+2025-04-06T20:43:44.563Z [INFO]: Request ID: e88da271-1c3e-443a-b255-0d814e4961d0, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0 POST /api/users/login
+2025-04-06T20:43:44.769Z [INFO]: Request ID: e88da271-1c3e-443a-b255-0d814e4961d0, Duration: 208ms
+2025-04-06T21:05:15.085Z [INFO]: Request ID: b5f74519-792a-41f7-937c-9b65ee1c5bf4, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0 GET /api/requests
+2025-04-06T21:05:15.133Z [INFO]: Request ID: b5f74519-792a-41f7-937c-9b65ee1c5bf4, Duration: 50ms
+2025-04-06T21:05:15.138Z [INFO]: Request ID: 0dc48bae-171e-4b66-8097-be2aaf3df4d6, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0 GET /api/requests
+2025-04-06T21:05:15.163Z [INFO]: Request ID: 0dc48bae-171e-4b66-8097-be2aaf3df4d6, Duration: 25ms
+2025-04-06T21:06:15.108Z [INFO]: Request ID: 636d974a-c80d-4e37-b19b-3a73847cc195, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0 GET /api/requests
+2025-04-06T21:06:15.112Z [INFO]: Request ID: 636d974a-c80d-4e37-b19b-3a73847cc195, Duration: 4ms
+2025-04-06T21:06:15.126Z [INFO]: Request ID: 6d773490-8ffc-4c27-aacb-b8a05e2ffd46, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0 GET /api/requests
+2025-04-06T21:06:15.130Z [INFO]: Request ID: 6d773490-8ffc-4c27-aacb-b8a05e2ffd46, Duration: 4ms
+2025-04-06T21:06:53.828Z [INFO]: Request ID: be858d62-8903-4700-a9d8-a52d6b9dc478, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0 GET /api/requests
+2025-04-06T21:06:53.832Z [INFO]: Request ID: be858d62-8903-4700-a9d8-a52d6b9dc478, Duration: 4ms
+2025-04-06T21:06:53.842Z [INFO]: Request ID: 05cd230a-6c54-4128-9835-f504b9284e71, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0 GET /api/requests
+2025-04-06T21:06:53.844Z [INFO]: Request ID: 05cd230a-6c54-4128-9835-f504b9284e71, Duration: 2ms
+2025-04-06T21:10:05.893Z [INFO]: Request ID: afb218e5-eca0-433e-a6a9-c2e31ea5e527, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0 GET /api/requests
+2025-04-06T21:10:05.896Z [INFO]: Request ID: afb218e5-eca0-433e-a6a9-c2e31ea5e527, Duration: 3ms
+2025-04-06T21:10:05.898Z [INFO]: Request ID: 767dc1ff-a209-46e4-ba3c-c31afcc94b38, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0 GET /api/requests
+2025-04-06T21:10:05.901Z [INFO]: Request ID: 767dc1ff-a209-46e4-ba3c-c31afcc94b38, Duration: 3ms
+2025-04-06T21:11:27.520Z [INFO]: Request ID: 5f3a16d3-cb2c-4e59-bbe9-1e5f0a83965f, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0 GET /api/requests
+2025-04-06T21:11:27.532Z [INFO]: Request ID: 5f3a16d3-cb2c-4e59-bbe9-1e5f0a83965f, Duration: 12ms
+2025-04-06T21:11:27.550Z [INFO]: Request ID: c01c852a-49f3-4064-af78-18b3cf40c327, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0 GET /api/requests
+2025-04-06T21:11:27.553Z [INFO]: Request ID: c01c852a-49f3-4064-af78-18b3cf40c327, Duration: 3ms
+2025-04-06T21:12:23.849Z [INFO]: Request ID: b2eaa8d2-d298-4d7f-ad08-671427865637, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0 GET /api/requests
+2025-04-06T21:12:23.853Z [INFO]: Request ID: b2eaa8d2-d298-4d7f-ad08-671427865637, Duration: 4ms
+2025-04-06T21:12:23.934Z [INFO]: Request ID: 47c1daf0-86a4-4bef-a917-0bfaed71379b, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0 GET /api/requests
+2025-04-06T21:12:23.979Z [INFO]: Request ID: 47c1daf0-86a4-4bef-a917-0bfaed71379b, Duration: 45ms
+2025-04-06T21:14:14.441Z [INFO]: Request ID: db5c20c2-9d2a-46de-8169-9bcf3317f843, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0 GET /api/requests
+2025-04-06T21:14:14.455Z [INFO]: Request ID: db5c20c2-9d2a-46de-8169-9bcf3317f843, Duration: 14ms
+2025-04-06T21:14:14.474Z [INFO]: Request ID: 23a8c8fa-544f-4a05-9edc-c2f1c9f5dd7a, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0 GET /api/requests
+2025-04-06T21:14:14.480Z [INFO]: Request ID: 23a8c8fa-544f-4a05-9edc-c2f1c9f5dd7a, Duration: 6ms
+2025-04-06T21:14:24.477Z [INFO]: Request ID: bf3809b7-60e6-4e34-89da-08ecc2ce0ae8, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0 GET /api/requests
+2025-04-06T21:14:24.480Z [INFO]: Request ID: bf3809b7-60e6-4e34-89da-08ecc2ce0ae8, Duration: 3ms
+2025-04-06T21:14:24.482Z [INFO]: Request ID: e4d4bd01-70c5-4592-9fde-392c98869f5c, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0 GET /api/requests
+2025-04-06T21:14:24.486Z [INFO]: Request ID: e4d4bd01-70c5-4592-9fde-392c98869f5c, Duration: 5ms
+2025-04-06T21:14:49.200Z [INFO]: Request ID: 51b0c3be-7338-449c-a861-3d61e96d08f5, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0 GET /api/requests
+2025-04-06T21:14:49.203Z [INFO]: Request ID: 51b0c3be-7338-449c-a861-3d61e96d08f5, Duration: 3ms
+2025-04-06T21:14:49.205Z [INFO]: Request ID: b8377675-1e69-4669-bde7-25710056bd85, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0 GET /api/requests
+2025-04-06T21:14:49.208Z [INFO]: Request ID: b8377675-1e69-4669-bde7-25710056bd85, Duration: 3ms
+2025-04-08T17:58:43.303Z [INFO]: Connecting to the database
+2025-04-08T17:58:43.434Z [INFO]: Connected to the database
+2025-04-08T17:58:43.501Z [INFO]: Server running on: http://192.168.43.83:4000
+2025-04-08T17:59:56.261Z [INFO]: Request ID: 27c2801d-db95-4f6c-863c-5c95d2f893ce, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/users/login
+2025-04-08T17:59:56.432Z [INFO]: Request ID: 27c2801d-db95-4f6c-863c-5c95d2f893ce, Duration: 171ms
+2025-04-08T18:00:51.315Z [INFO]: Request ID: 9bb53451-7b8b-4bd1-a874-e6dc8727c963, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/users
+2025-04-08T18:00:51.519Z [INFO]: Request ID: 9bb53451-7b8b-4bd1-a874-e6dc8727c963, Duration: 204ms
+2025-04-08T18:01:15.876Z [INFO]: Request ID: 4fbde675-4149-4fef-89ef-670ddc213641, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/users/login
+2025-04-08T18:01:16.016Z [INFO]: Request ID: 4fbde675-4149-4fef-89ef-670ddc213641, Duration: 140ms
+2025-04-08T18:04:42.128Z [INFO]: Request ID: 17d6bb3f-bb22-4b25-9385-a12c68d026ef, IP: ::1, User Agent: PostmanRuntime/7.43.3 POST /api/users/login
+2025-04-08T18:04:42.281Z [INFO]: Request ID: 17d6bb3f-bb22-4b25-9385-a12c68d026ef, Duration: 153ms
+2025-04-08T18:08:52.406Z [INFO]: Request ID: fd565ebc-44d2-4b8e-8d7a-c3b8c2d30162, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/users/login
+2025-04-08T18:08:52.550Z [INFO]: Request ID: fd565ebc-44d2-4b8e-8d7a-c3b8c2d30162, Duration: 144ms
+2025-04-08T18:09:09.203Z [INFO]: Request ID: 4c627716-2863-4ddb-bf8a-40b95cfb3268, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/users/login
+2025-04-08T18:09:09.348Z [INFO]: Request ID: 4c627716-2863-4ddb-bf8a-40b95cfb3268, Duration: 145ms
+2025-04-08T18:09:27.766Z [INFO]: Request ID: 646407bd-e10f-4361-87cd-9b24c442bebc, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/requests
+2025-04-08T18:09:27.779Z [INFO]: Request ID: 646407bd-e10f-4361-87cd-9b24c442bebc, Duration: 13ms
+2025-04-08T18:09:27.792Z [INFO]: Request ID: fa5753ff-b04d-4158-853a-bbce01078194, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/requests
+2025-04-08T18:09:27.797Z [INFO]: Request ID: fa5753ff-b04d-4158-853a-bbce01078194, Duration: 6ms
+2025-04-08T18:10:45.970Z [INFO]: Request ID: 27d85d47-13f9-4096-8002-cf4ef773a97c, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/users/login
+2025-04-08T18:10:46.108Z [INFO]: Request ID: 27d85d47-13f9-4096-8002-cf4ef773a97c, Duration: 138ms
+2025-04-08T18:28:37.234Z [INFO]: Request ID: 8a224ced-c288-4cd1-8325-334f071c9426, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/users/login
+2025-04-08T18:28:37.429Z [INFO]: Request ID: 8a224ced-c288-4cd1-8325-334f071c9426, Duration: 196ms
+2025-04-08T20:37:45.711Z [INFO]: Connecting to the database
+2025-04-08T20:37:45.875Z [INFO]: Connected to the database
+2025-04-08T20:37:45.953Z [INFO]: Server running on: http://192.168.43.83:4000
+2025-04-08T20:38:06.727Z [INFO]: Connecting to the database
+2025-04-08T20:38:06.913Z [INFO]: Connected to the database
+2025-04-08T20:38:07.219Z [INFO]: Server running on: http://192.168.43.83:4000
+2025-04-08T20:43:51.433Z [INFO]: Request ID: 535d6459-2858-4527-9ab9-f823906fe4a9, IP: ::ffff:192.168.43.71, User Agent: okhttp/4.9.0 POST /api/api/users/
+2025-04-08T20:43:51.492Z [INFO]: Request ID: 535d6459-2858-4527-9ab9-f823906fe4a9, Duration: 62ms
+2025-04-08T20:43:56.001Z [INFO]: Request ID: 20d1d720-e197-405c-a1d0-f5544e9ee944, IP: ::ffff:192.168.43.71, User Agent: okhttp/4.9.0 POST /api/api/users/
+2025-04-08T20:43:56.004Z [INFO]: Request ID: 20d1d720-e197-405c-a1d0-f5544e9ee944, Duration: 3ms
+2025-04-08T20:43:57.379Z [INFO]: Request ID: e5c4741b-fff4-4f57-9b6d-d1bb67138d9c, IP: ::ffff:192.168.43.71, User Agent: okhttp/4.9.0 POST /api/api/users/
+2025-04-08T20:43:57.381Z [INFO]: Request ID: e5c4741b-fff4-4f57-9b6d-d1bb67138d9c, Duration: 2ms
+2025-04-08T20:44:00.886Z [INFO]: Request ID: c5fbe31c-4f58-4350-8102-cbd75e537ac2, IP: ::ffff:192.168.43.71, User Agent: okhttp/4.9.0 POST /api/api/users/
+2025-04-08T20:44:00.899Z [INFO]: Request ID: c5fbe31c-4f58-4350-8102-cbd75e537ac2, Duration: 13ms
+2025-04-08T20:44:14.637Z [INFO]: Request ID: 28c4bb2c-7133-4439-bef8-3f2db1a85c5b, IP: ::ffff:192.168.43.71, User Agent: okhttp/4.9.0 POST /api/users/login
+2025-04-08T20:44:14.681Z [INFO]: Request ID: 28c4bb2c-7133-4439-bef8-3f2db1a85c5b, Duration: 44ms
+2025-04-08T20:44:17.596Z [INFO]: Request ID: 6d5c47e8-6858-4292-b7c4-9fa0e8071407, IP: ::ffff:192.168.43.71, User Agent: okhttp/4.9.0 POST /api/users/login
+2025-04-08T20:44:17.607Z [INFO]: Request ID: 6d5c47e8-6858-4292-b7c4-9fa0e8071407, Duration: 11ms
+2025-04-08T20:44:25.714Z [INFO]: Request ID: 89bb5b8b-b788-4ca1-b54b-850cbe1e043f, IP: ::ffff:192.168.43.71, User Agent: okhttp/4.9.0 POST /api/users/login
+2025-04-08T20:44:25.723Z [INFO]: Request ID: 89bb5b8b-b788-4ca1-b54b-850cbe1e043f, Duration: 9ms
+2025-04-08T20:44:27.076Z [INFO]: Request ID: 0fd33828-7042-4efb-8c7a-1aeaa5019878, IP: ::ffff:192.168.43.71, User Agent: okhttp/4.9.0 POST /api/users/login
+2025-04-08T20:44:27.086Z [INFO]: Request ID: 0fd33828-7042-4efb-8c7a-1aeaa5019878, Duration: 10ms
+2025-04-08T20:44:28.327Z [INFO]: Request ID: add3b213-4972-44f2-ab77-c1769aacb3c4, IP: ::ffff:192.168.43.71, User Agent: okhttp/4.9.0 POST /api/users/login
+2025-04-08T20:44:28.337Z [INFO]: Request ID: add3b213-4972-44f2-ab77-c1769aacb3c4, Duration: 10ms
+2025-04-08T20:55:52.901Z [INFO]: Request ID: a73addbd-afcd-4cb9-86b1-5e76dc75daab, IP: ::ffff:192.168.43.71, User Agent: okhttp/4.9.0 POST /api/users
+2025-04-08T20:55:53.012Z [INFO]: Request ID: a73addbd-afcd-4cb9-86b1-5e76dc75daab, Duration: 113ms
+2025-04-08T20:55:55.494Z [INFO]: Request ID: bc29b848-3318-4f68-bdef-79c4fdf45b8e, IP: ::ffff:192.168.43.71, User Agent: okhttp/4.9.0 POST /api/users
+2025-04-08T20:55:55.498Z [INFO]: Request ID: bc29b848-3318-4f68-bdef-79c4fdf45b8e, Duration: 4ms
+2025-04-08T20:55:57.623Z [INFO]: Request ID: 390be507-4add-427c-927e-1321ed6049ea, IP: ::ffff:192.168.43.71, User Agent: okhttp/4.9.0 POST /api/users
+2025-04-08T20:55:57.626Z [INFO]: Request ID: 390be507-4add-427c-927e-1321ed6049ea, Duration: 3ms
+2025-04-08T20:56:00.011Z [INFO]: Request ID: 99eeddac-364c-4812-9ba3-2e84b0945997, IP: ::ffff:192.168.43.71, User Agent: okhttp/4.9.0 POST /api/users
+2025-04-08T20:56:00.015Z [INFO]: Request ID: 99eeddac-364c-4812-9ba3-2e84b0945997, Duration: 4ms
+2025-04-08T20:56:12.059Z [INFO]: Request ID: cf4ae1ca-c764-4a1d-bc70-a7004d56ea18, IP: ::ffff:192.168.43.71, User Agent: okhttp/4.9.0 POST /api/users
+2025-04-08T20:56:12.064Z [INFO]: Request ID: cf4ae1ca-c764-4a1d-bc70-a7004d56ea18, Duration: 5ms
+2025-04-08T20:56:13.627Z [INFO]: Request ID: d8c8a3b0-d875-4455-9baa-4fea9d208dc4, IP: ::ffff:192.168.43.71, User Agent: okhttp/4.9.0 POST /api/users
+2025-04-08T20:56:13.631Z [INFO]: Request ID: d8c8a3b0-d875-4455-9baa-4fea9d208dc4, Duration: 4ms
+2025-04-08T20:56:15.141Z [INFO]: Request ID: f7c8caee-4674-4c3a-b0d8-339f5341b868, IP: ::ffff:192.168.43.71, User Agent: okhttp/4.9.0 POST /api/users
+2025-04-08T20:56:15.143Z [INFO]: Request ID: f7c8caee-4674-4c3a-b0d8-339f5341b868, Duration: 2ms
+2025-04-08T20:57:03.965Z [INFO]: Request ID: 155849fc-db2e-4e6d-b0f9-879c396cef05, IP: ::ffff:192.168.43.71, User Agent: okhttp/4.9.0 POST /api/users
+2025-04-08T20:57:03.968Z [INFO]: Request ID: 155849fc-db2e-4e6d-b0f9-879c396cef05, Duration: 3ms
+2025-04-08T20:57:36.050Z [INFO]: Request ID: 0b905913-216a-4a7e-ac7e-2bd79b380d5b, IP: ::ffff:192.168.43.71, User Agent: okhttp/4.9.0 POST /api/users
+2025-04-08T20:57:36.056Z [INFO]: Request ID: 0b905913-216a-4a7e-ac7e-2bd79b380d5b, Duration: 6ms
+2025-04-08T20:57:36.915Z [INFO]: Request ID: dd5dc4d7-0c8a-4d87-8373-3baa62a58bcb, IP: ::ffff:192.168.43.71, User Agent: okhttp/4.9.0 POST /api/users
+2025-04-08T20:57:36.918Z [INFO]: Request ID: dd5dc4d7-0c8a-4d87-8373-3baa62a58bcb, Duration: 3ms
+2025-04-08T20:57:55.811Z [INFO]: Request ID: 3f76ae38-aae2-4294-97b6-491495fec74a, IP: ::ffff:192.168.43.71, User Agent: okhttp/4.9.0 POST /api/users
+2025-04-08T20:57:55.814Z [INFO]: Request ID: 3f76ae38-aae2-4294-97b6-491495fec74a, Duration: 3ms
+2025-04-08T20:58:00.180Z [INFO]: Request ID: e44d6b35-94ad-4432-a800-d29d2dbd51fe, IP: ::ffff:192.168.43.71, User Agent: okhttp/4.9.0 POST /api/users
+2025-04-08T20:58:00.186Z [INFO]: Request ID: e44d6b35-94ad-4432-a800-d29d2dbd51fe, Duration: 6ms
+2025-04-08T20:58:03.073Z [INFO]: Request ID: bb5b9c8b-05d4-45c1-859b-b9a97f4d894a, IP: ::ffff:192.168.43.71, User Agent: okhttp/4.9.0 POST /api/users
+2025-04-08T20:58:03.108Z [INFO]: Request ID: bb5b9c8b-05d4-45c1-859b-b9a97f4d894a, Duration: 35ms
+2025-04-08T20:58:06.501Z [INFO]: Request ID: 9f09dcd1-e603-44da-80b0-779749b9e0ae, IP: ::ffff:192.168.43.71, User Agent: okhttp/4.9.0 POST /api/users
+2025-04-08T20:58:06.506Z [INFO]: Request ID: 9f09dcd1-e603-44da-80b0-779749b9e0ae, Duration: 5ms
+2025-04-08T20:58:12.433Z [INFO]: Request ID: e3df0c71-4ff9-426f-a162-b9e6bb536f63, IP: ::ffff:192.168.43.71, User Agent: okhttp/4.9.0 POST /api/users
+2025-04-08T20:58:12.436Z [INFO]: Request ID: e3df0c71-4ff9-426f-a162-b9e6bb536f63, Duration: 3ms
+2025-04-08T20:58:48.751Z [INFO]: Request ID: d13b190b-6cac-4238-8faf-6cc67189efc6, IP: ::ffff:192.168.43.71, User Agent: okhttp/4.9.0 POST /api/users
+2025-04-08T20:58:48.754Z [INFO]: Request ID: d13b190b-6cac-4238-8faf-6cc67189efc6, Duration: 3ms
+2025-04-08T20:58:52.973Z [INFO]: Request ID: 7f14c288-b322-4507-a567-d4f8ac1c8d46, IP: ::ffff:192.168.43.71, User Agent: okhttp/4.9.0 POST /api/users
+2025-04-08T20:58:52.976Z [INFO]: Request ID: 7f14c288-b322-4507-a567-d4f8ac1c8d46, Duration: 3ms
+2025-04-08T20:59:06.134Z [INFO]: Request ID: ccafb4d6-bb0e-4093-aeb5-f5bea80053f1, IP: ::ffff:192.168.43.71, User Agent: okhttp/4.9.0 POST /api/users
+2025-04-08T20:59:06.136Z [INFO]: Request ID: ccafb4d6-bb0e-4093-aeb5-f5bea80053f1, Duration: 2ms
+2025-04-08T20:59:57.795Z [INFO]: Request ID: 80078a41-bf8c-473a-987a-06f7d9da6434, IP: ::ffff:192.168.43.71, User Agent: okhttp/4.9.0 POST /api/users
+2025-04-08T20:59:57.799Z [INFO]: Request ID: 80078a41-bf8c-473a-987a-06f7d9da6434, Duration: 4ms
+2025-04-10T09:14:24.807Z [INFO]: Connecting to the database
+2025-04-10T09:14:24.920Z [INFO]: Connected to the database
+2025-04-10T09:14:25.173Z [INFO]: Server running on: http://192.168.43.83:4000
+2025-04-10T10:13:26.133Z [INFO]: Connecting to the database
+2025-04-10T10:13:26.239Z [INFO]: Connected to the database
+2025-04-10T10:14:09.970Z [INFO]: Connecting to the database
+2025-04-10T10:14:10.068Z [INFO]: Connected to the database
+2025-04-10T10:14:10.126Z [INFO]: Server running on: http://192.168.43.83:4000
+2025-04-10T11:04:39.552Z [INFO]: Connecting to the database
+2025-04-10T11:04:39.675Z [INFO]: Connected to the database
+2025-04-10T11:04:39.780Z [INFO]: Server running on: http://127.0.0.1:4000
+2025-04-10T11:07:20.192Z [INFO]: Connecting to the database
+2025-04-10T11:07:20.413Z [INFO]: Connected to the database
+2025-04-10T11:07:20.628Z [INFO]: Server running on: http://127.0.0.1:4000
+2025-04-10T18:33:19.750Z [INFO]: Connecting to the database
+2025-04-10T18:33:20.002Z [INFO]: Connected to the database
+2025-04-10T18:33:20.232Z [INFO]: Server running on: http://192.168.43.84:4000
+2025-04-10T19:40:20.340Z [INFO]: Connecting to the database
+2025-04-10T19:40:20.448Z [INFO]: Connected to the database
+2025-04-10T19:40:20.519Z [INFO]: Server running on: http://192.168.43.84:4000
+2025-04-10T19:44:39.481Z [INFO]: Connecting to the database
+2025-04-10T19:44:39.627Z [INFO]: Connected to the database
+2025-04-10T19:44:39.703Z [INFO]: Server running on: http://192.168.43.84:4000
+2025-04-10T19:49:33.254Z [INFO]: Request ID: 72808504-c684-4c47-9901-59b5db9783d7, IP: ::ffff:192.168.43.84, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-10T19:49:33.256Z [ERROR]: Request ID: 72808504-c684-4c47-9901-59b5db9783d7 POST /api/hospital-request, Class constructor model cannot be invoked without 'new'
+2025-04-10T19:49:33.263Z [INFO]: Request ID: 72808504-c684-4c47-9901-59b5db9783d7, Duration: 9ms
+2025-04-10T19:49:34.651Z [INFO]: Request ID: b0ee8042-ba68-4c39-b69b-860ebfaa25e9, IP: ::ffff:192.168.43.84, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-10T19:49:34.653Z [ERROR]: Request ID: b0ee8042-ba68-4c39-b69b-860ebfaa25e9 POST /api/hospital-request, Class constructor model cannot be invoked without 'new'
+2025-04-10T19:49:34.655Z [INFO]: Request ID: b0ee8042-ba68-4c39-b69b-860ebfaa25e9, Duration: 4ms
+2025-04-10T19:49:35.984Z [INFO]: Request ID: 8fc44b16-7d04-43bb-87e4-120ee92d01aa, IP: ::ffff:192.168.43.84, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-10T19:49:35.985Z [ERROR]: Request ID: 8fc44b16-7d04-43bb-87e4-120ee92d01aa POST /api/hospital-request, Class constructor model cannot be invoked without 'new'
+2025-04-10T19:49:35.987Z [INFO]: Request ID: 8fc44b16-7d04-43bb-87e4-120ee92d01aa, Duration: 4ms
+2025-04-10T19:49:50.397Z [INFO]: Request ID: 43976250-fc69-4214-b95b-cd86252d464e, IP: ::ffff:192.168.43.84, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-10T19:49:50.399Z [ERROR]: Request ID: 43976250-fc69-4214-b95b-cd86252d464e POST /api/hospital-request, Class constructor model cannot be invoked without 'new'
+2025-04-10T19:49:50.401Z [INFO]: Request ID: 43976250-fc69-4214-b95b-cd86252d464e, Duration: 4ms
+2025-04-10T19:49:51.599Z [INFO]: Request ID: 209c9537-77e4-43b0-9ab1-db4b4c90872b, IP: ::ffff:192.168.43.84, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-10T19:49:51.600Z [ERROR]: Request ID: 209c9537-77e4-43b0-9ab1-db4b4c90872b POST /api/hospital-request, Class constructor model cannot be invoked without 'new'
+2025-04-10T19:49:51.602Z [INFO]: Request ID: 209c9537-77e4-43b0-9ab1-db4b4c90872b, Duration: 3ms
+2025-04-10T19:53:31.682Z [INFO]: Request ID: 7a16c028-73db-4467-9f9e-fc2693aa6c22, IP: ::ffff:192.168.43.84, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-10T19:53:31.683Z [ERROR]: Request ID: 7a16c028-73db-4467-9f9e-fc2693aa6c22 POST /api/hospital-request, Class constructor model cannot be invoked without 'new'
+2025-04-10T19:53:31.690Z [INFO]: Request ID: 7a16c028-73db-4467-9f9e-fc2693aa6c22, Duration: 8ms
+2025-04-10T19:53:33.186Z [INFO]: Request ID: fd5c9ff7-a673-4f15-b4e7-a8c4bd8a2412, IP: ::ffff:192.168.43.84, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-10T19:53:33.191Z [ERROR]: Request ID: fd5c9ff7-a673-4f15-b4e7-a8c4bd8a2412 POST /api/hospital-request, Class constructor model cannot be invoked without 'new'
+2025-04-10T19:53:33.197Z [INFO]: Request ID: fd5c9ff7-a673-4f15-b4e7-a8c4bd8a2412, Duration: 11ms
+2025-04-10T19:53:59.024Z [INFO]: Request ID: ca72f7e4-8b5f-4eb8-afc5-92402836cf50, IP: ::ffff:192.168.43.84, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-10T19:53:59.029Z [ERROR]: Request ID: ca72f7e4-8b5f-4eb8-afc5-92402836cf50 POST /api/hospital-request, Class constructor model cannot be invoked without 'new'
+2025-04-10T19:53:59.041Z [INFO]: Request ID: ca72f7e4-8b5f-4eb8-afc5-92402836cf50, Duration: 17ms
+2025-04-10T19:56:11.999Z [INFO]: Request ID: c0293594-681c-46af-ae5a-27ae56d8b54c, IP: ::ffff:192.168.43.84, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-10T19:56:11.999Z [ERROR]: Request ID: c0293594-681c-46af-ae5a-27ae56d8b54c POST /api/hospital-request, Class constructor model cannot be invoked without 'new'
+2025-04-10T19:56:12.014Z [INFO]: Request ID: c0293594-681c-46af-ae5a-27ae56d8b54c, Duration: 15ms
+2025-04-10T19:59:50.561Z [INFO]: Request ID: 6fd1c4f9-e66d-47fd-b5b2-2fe787868847, IP: ::ffff:192.168.43.84, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-10T19:59:50.562Z [ERROR]: Request ID: 6fd1c4f9-e66d-47fd-b5b2-2fe787868847 POST /api/hospital-request, Class constructor model cannot be invoked without 'new'
+2025-04-10T19:59:50.563Z [INFO]: Request ID: 6fd1c4f9-e66d-47fd-b5b2-2fe787868847, Duration: 2ms
+2025-04-10T19:59:52.087Z [INFO]: Request ID: 441f5210-8520-4dae-b614-9375666ed0dd, IP: ::ffff:192.168.43.84, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-10T19:59:52.088Z [ERROR]: Request ID: 441f5210-8520-4dae-b614-9375666ed0dd POST /api/hospital-request, Class constructor model cannot be invoked without 'new'
+2025-04-10T19:59:52.090Z [INFO]: Request ID: 441f5210-8520-4dae-b614-9375666ed0dd, Duration: 3ms
+2025-04-11T09:17:45.883Z [INFO]: Connecting to the database
+2025-04-11T09:17:46.333Z [INFO]: Connected to the database
+2025-04-11T09:17:46.565Z [INFO]: Server running on: http://172.16.3.198:4000
+2025-04-11T09:20:25.048Z [INFO]: Request ID: b84befd5-6b41-4500-867e-3ebfb101846a, IP: ::ffff:172.16.3.198, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-11T09:20:25.051Z [ERROR]: Request ID: b84befd5-6b41-4500-867e-3ebfb101846a POST /api/hospital-request, Class constructor model cannot be invoked without 'new'
+2025-04-11T09:20:25.079Z [INFO]: Request ID: b84befd5-6b41-4500-867e-3ebfb101846a, Duration: 25ms
+2025-04-11T09:27:34.355Z [INFO]: Request ID: 74953816-8142-4500-a2cb-b8f05db59609, IP: ::ffff:172.16.3.198, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-11T09:27:34.390Z [ERROR]: Request ID: 74953816-8142-4500-a2cb-b8f05db59609 POST /api/hospital-request, Class constructor model cannot be invoked without 'new'
+2025-04-11T09:27:34.399Z [INFO]: Request ID: 74953816-8142-4500-a2cb-b8f05db59609, Duration: 43ms
+2025-04-11T12:47:08.595Z [INFO]: Request ID: 99aec987-0539-4583-bfbe-58e9ccf1921f, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/users/login
+2025-04-11T12:47:08.783Z [INFO]: Request ID: 99aec987-0539-4583-bfbe-58e9ccf1921f, Duration: 188ms
+2025-04-11T12:47:35.931Z [INFO]: Request ID: 260f2890-2ee5-4b73-948e-cf708c223172, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/requests
+2025-04-11T12:47:35.935Z [INFO]: Request ID: 260f2890-2ee5-4b73-948e-cf708c223172, Duration: 4ms
+2025-04-11T12:47:35.943Z [INFO]: Request ID: 6a678583-8542-4130-bb6e-86fb286d2f3c, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/requests
+2025-04-11T12:47:35.946Z [INFO]: Request ID: 6a678583-8542-4130-bb6e-86fb286d2f3c, Duration: 3ms
+2025-04-11T13:08:23.389Z [INFO]: Connecting to the database
+2025-04-11T13:08:23.504Z [INFO]: Connected to the database
+2025-04-11T13:08:23.628Z [INFO]: Server running on: http://192.168.43.83:4000
+2025-04-11T13:15:29.778Z [INFO]: Request ID: 45dc030d-b0c4-404a-901c-f696cae6f1ff, IP: ::ffff:192.168.43.83, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-11T13:15:29.789Z [INFO]: Request ID: 45dc030d-b0c4-404a-901c-f696cae6f1ff, Duration: 11ms
+2025-04-11T13:15:31.536Z [INFO]: Request ID: fc3f35cc-dfeb-4f91-8924-9942054bc459, IP: ::ffff:192.168.43.83, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-11T13:15:31.552Z [INFO]: Request ID: fc3f35cc-dfeb-4f91-8924-9942054bc459, Duration: 16ms
+2025-04-11T13:15:33.243Z [INFO]: Request ID: 71071c81-cf59-4a26-901a-03f5e503536a, IP: ::ffff:192.168.43.83, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-11T13:15:33.263Z [INFO]: Request ID: 71071c81-cf59-4a26-901a-03f5e503536a, Duration: 20ms
+2025-04-11T13:15:35.783Z [INFO]: Request ID: 6d1f47f2-9394-498e-87d8-8829d209a003, IP: ::ffff:192.168.43.83, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-11T13:15:35.825Z [INFO]: Request ID: 6d1f47f2-9394-498e-87d8-8829d209a003, Duration: 42ms
+2025-04-11T13:17:12.279Z [INFO]: Request ID: f62776e8-f3f4-42c5-9c3a-19dd1e4211d8, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-11T13:17:12.310Z [INFO]: Request ID: f62776e8-f3f4-42c5-9c3a-19dd1e4211d8, Duration: 31ms
+2025-04-11T13:20:46.741Z [INFO]: Request ID: ed7eb5e6-81ad-4bdf-a717-7c0fad6ce2ab, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-11T13:20:46.761Z [INFO]: Request ID: ed7eb5e6-81ad-4bdf-a717-7c0fad6ce2ab, Duration: 20ms
+2025-04-11T13:26:34.743Z [INFO]: Connecting to the database
+2025-04-11T13:26:34.918Z [INFO]: Connected to the database
+2025-04-11T13:26:35.048Z [INFO]: Server running on: http://192.168.43.83:4000
+2025-04-11T13:26:53.719Z [INFO]: Request ID: e82f2a67-f513-42d1-bc56-dff7aee7825b, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-11T13:26:53.820Z [INFO]: Request ID: e82f2a67-f513-42d1-bc56-dff7aee7825b, Duration: 102ms
+2025-04-11T13:29:47.856Z [INFO]: Connecting to the database
+2025-04-11T13:29:47.955Z [INFO]: Connected to the database
+2025-04-11T13:29:48.040Z [INFO]: Server running on: http://192.168.43.83:4000
+2025-04-11T13:35:58.325Z [INFO]: Request ID: db59c80b-2f11-4205-9c7d-0373d5dbbbff, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/users/login
+2025-04-11T13:35:58.590Z [INFO]: Request ID: db59c80b-2f11-4205-9c7d-0373d5dbbbff, Duration: 265ms
+2025-04-11T13:37:14.367Z [INFO]: Request ID: ca3ba271-3909-4f73-9e2f-bf3b24d21816, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-11T13:37:14.388Z [INFO]: Request ID: ca3ba271-3909-4f73-9e2f-bf3b24d21816, Duration: 21ms
+2025-04-11T13:41:13.696Z [INFO]: Request ID: 091e80b7-62c4-425d-9766-d319fd609426, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-11T13:41:13.718Z [INFO]: Request ID: 091e80b7-62c4-425d-9766-d319fd609426, Duration: 22ms
+2025-04-11T13:44:06.929Z [INFO]: Request ID: d390922b-5186-4e8b-a154-cb7c02b6ed1c, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-11T13:44:06.956Z [ERROR]: Request ID: d390922b-5186-4e8b-a154-cb7c02b6ed1c POST /api/hospital-request, Unexpected field
+2025-04-11T13:44:06.959Z [INFO]: Request ID: d390922b-5186-4e8b-a154-cb7c02b6ed1c, Duration: 31ms
+2025-04-11T13:47:10.871Z [INFO]: Request ID: 1b804689-a7fe-44c3-93a6-f3e92c5452b8, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-11T13:47:10.877Z [ERROR]: Request ID: 1b804689-a7fe-44c3-93a6-f3e92c5452b8 POST /api/hospital-request, Unexpected field
+2025-04-11T13:47:10.882Z [INFO]: Request ID: 1b804689-a7fe-44c3-93a6-f3e92c5452b8, Duration: 11ms
+2025-04-11T13:52:18.485Z [INFO]: Request ID: af0c6036-ac58-4859-8a6c-1f9af73ed7dc, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-11T13:52:18.487Z [ERROR]: Request ID: af0c6036-ac58-4859-8a6c-1f9af73ed7dc POST /api/hospital-request, Unexpected field
+2025-04-11T13:52:18.489Z [INFO]: Request ID: af0c6036-ac58-4859-8a6c-1f9af73ed7dc, Duration: 4ms
+2025-04-11T13:57:20.044Z [INFO]: Request ID: 5af487a7-d921-406e-a657-1d88e4209473, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-11T13:57:20.048Z [ERROR]: Request ID: 5af487a7-d921-406e-a657-1d88e4209473 POST /api/hospital-request, Unexpected field
+2025-04-11T13:57:20.050Z [INFO]: Request ID: 5af487a7-d921-406e-a657-1d88e4209473, Duration: 6ms
+2025-04-11T13:59:24.774Z [INFO]: Connecting to the database
+2025-04-11T13:59:24.883Z [INFO]: Connected to the database
+2025-04-11T13:59:39.622Z [INFO]: Connecting to the database
+2025-04-11T13:59:39.724Z [INFO]: Connected to the database
+2025-04-11T13:59:39.790Z [INFO]: Server running on: http://192.168.43.83:4000
+2025-04-11T13:59:53.489Z [INFO]: Request ID: 82f80872-36c0-4672-a01d-897e9b9fa4ee, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-11T13:59:53.501Z [ERROR]: Request ID: 82f80872-36c0-4672-a01d-897e9b9fa4ee POST /api/hospital-request, Unexpected field
+2025-04-11T13:59:53.529Z [INFO]: Request ID: 82f80872-36c0-4672-a01d-897e9b9fa4ee, Duration: 40ms
+2025-04-11T14:05:09.894Z [INFO]: Request ID: 15fa6779-4d8a-4e27-9d83-e35f31226687, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-11T14:05:09.897Z [ERROR]: Request ID: 15fa6779-4d8a-4e27-9d83-e35f31226687 POST /api/hospital-request, Unexpected field
+2025-04-11T14:05:09.899Z [INFO]: Request ID: 15fa6779-4d8a-4e27-9d83-e35f31226687, Duration: 5ms
+2025-04-11T14:10:09.942Z [INFO]: Request ID: 97175973-ea9b-4e4a-8999-a2e1aee84258, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-11T14:10:09.944Z [ERROR]: Request ID: 97175973-ea9b-4e4a-8999-a2e1aee84258 POST /api/hospital-request, Unexpected field
+2025-04-11T14:10:09.946Z [INFO]: Request ID: 97175973-ea9b-4e4a-8999-a2e1aee84258, Duration: 4ms
+2025-04-13T16:08:53.864Z [INFO]: Connecting to the database
+2025-04-13T16:08:54.106Z [INFO]: Connected to the database
+2025-04-13T16:08:54.529Z [INFO]: Server running on: http://192.168.43.83:4000
+2025-04-13T16:15:13.094Z [INFO]: Request ID: 25a3957c-e525-45ef-b099-8ad4e1c792af, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-13T16:15:13.107Z [ERROR]: Request ID: 25a3957c-e525-45ef-b099-8ad4e1c792af POST /api/hospital-request, Unexpected field
+2025-04-13T16:15:13.120Z [INFO]: Request ID: 25a3957c-e525-45ef-b099-8ad4e1c792af, Duration: 27ms
+2025-04-13T16:15:45.123Z [INFO]: Request ID: e2446465-0385-4832-944b-07f42d5ec251, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-13T16:15:45.138Z [ERROR]: Request ID: e2446465-0385-4832-944b-07f42d5ec251 POST /api/hospital-request, Unexpected field
+2025-04-13T16:15:45.143Z [INFO]: Request ID: e2446465-0385-4832-944b-07f42d5ec251, Duration: 20ms
+2025-04-13T16:18:17.468Z [INFO]: Request ID: bc9ee204-fee9-4024-ba06-d5e7dbd45729, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-13T16:18:17.473Z [ERROR]: Request ID: bc9ee204-fee9-4024-ba06-d5e7dbd45729 POST /api/hospital-request, Unexpected field
+2025-04-13T16:18:17.475Z [INFO]: Request ID: bc9ee204-fee9-4024-ba06-d5e7dbd45729, Duration: 8ms
+2025-04-13T16:18:43.538Z [INFO]: Connecting to the database
+2025-04-13T16:18:43.646Z [INFO]: Connected to the database
+2025-04-13T16:18:43.704Z [INFO]: Server running on: http://192.168.43.83:4000
+2025-04-13T16:18:55.495Z [INFO]: Request ID: e19e12ba-242b-4ad4-be0f-fdb833cb77d2, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-13T16:18:55.605Z [INFO]: Request ID: e19e12ba-242b-4ad4-be0f-fdb833cb77d2, Duration: 110ms
+2025-04-13T16:18:56.800Z [INFO]: Request ID: f90dca47-ade6-4a37-9c67-0e6e412454fa, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-13T16:18:56.865Z [INFO]: Request ID: f90dca47-ade6-4a37-9c67-0e6e412454fa, Duration: 66ms
+2025-04-13T16:25:49.873Z [INFO]: Request ID: 70fc6088-2e98-4333-95a3-f7203daeda5d, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-13T16:25:49.923Z [INFO]: Request ID: 70fc6088-2e98-4333-95a3-f7203daeda5d, Duration: 50ms
+2025-04-13T16:29:59.302Z [INFO]: Request ID: a3388ca3-634b-4b91-ba47-0f8684fc69fb, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-13T16:29:59.383Z [INFO]: Request ID: a3388ca3-634b-4b91-ba47-0f8684fc69fb, Duration: 81ms
+2025-04-13T16:30:04.909Z [INFO]: Request ID: bb2da56a-5836-4ae5-a8f0-0e3ce4bee8d0, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-13T16:30:04.976Z [INFO]: Request ID: bb2da56a-5836-4ae5-a8f0-0e3ce4bee8d0, Duration: 67ms
+2025-04-13T16:52:19.560Z [INFO]: Request ID: bbdb04a2-ef7b-4b8f-8d62-12ac4dcbbc6a, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-13T16:52:19.584Z [INFO]: Request ID: bbdb04a2-ef7b-4b8f-8d62-12ac4dcbbc6a, Duration: 24ms
+2025-04-13T17:55:16.011Z [INFO]: Request ID: 38cf272d-85b3-48db-b8f9-f63a6ebf3aa4, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-13T17:55:16.032Z [INFO]: Request ID: 38cf272d-85b3-48db-b8f9-f63a6ebf3aa4, Duration: 21ms
+2025-04-13T18:07:59.946Z [INFO]: SIGINT received: closing database connection
+2025-04-13T18:08:58.528Z [INFO]: Connecting to the database
+2025-04-13T18:08:58.731Z [INFO]: Connected to the database
+2025-04-13T18:08:58.893Z [INFO]: Server running on: http://192.168.43.83:4000
+2025-04-13T18:09:08.358Z [INFO]: Request ID: 6708d04a-446b-4de6-b131-10ece5621982, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-13T18:09:08.451Z [INFO]: Request ID: 6708d04a-446b-4de6-b131-10ece5621982, Duration: 93ms
+2025-04-13T18:12:27.703Z [INFO]: Request ID: a053a8fc-2f9b-4ee4-981e-71afd49444fa, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-13T18:12:27.785Z [INFO]: Request ID: a053a8fc-2f9b-4ee4-981e-71afd49444fa, Duration: 82ms
+2025-04-13T18:17:18.085Z [INFO]: Request ID: 1f384286-f81a-4adb-94d7-aaa1ecd0a00e, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/hospital-request
+2025-04-13T18:17:18.223Z [INFO]: Request ID: 1f384286-f81a-4adb-94d7-aaa1ecd0a00e, Duration: 138ms
+2025-04-13T18:54:16.943Z [INFO]: Request ID: 630180ef-c02e-4ba0-98b4-b0b838989316, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/users/login
+2025-04-13T18:54:17.149Z [INFO]: Request ID: 630180ef-c02e-4ba0-98b4-b0b838989316, Duration: 206ms
+2025-04-13T19:39:54.122Z [INFO]: Request ID: 5659b878-07d8-4ae6-8a1f-0651fcee1359, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/users/login
+2025-04-13T19:39:54.256Z [INFO]: Request ID: 5659b878-07d8-4ae6-8a1f-0651fcee1359, Duration: 135ms
+2025-04-13T19:49:00.226Z [INFO]: Connecting to the database
+2025-04-13T19:49:00.332Z [INFO]: Connected to the database
+2025-04-13T19:49:25.752Z [INFO]: Connecting to the database
+2025-04-13T19:49:25.866Z [INFO]: Connected to the database
+2025-04-13T19:49:25.929Z [INFO]: Server running on: http://192.168.43.83:4000
+2025-04-13T19:50:29.422Z [INFO]: Request ID: bd05b70a-fa72-4ae7-bbeb-e2d1649e42cd, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/users/login
+2025-04-13T19:50:29.572Z [INFO]: Request ID: bd05b70a-fa72-4ae7-bbeb-e2d1649e42cd, Duration: 150ms
+2025-04-13T19:50:31.515Z [INFO]: Request ID: b1a14a8e-09d9-433f-8042-4b98bcf7db95, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T19:50:31.522Z [INFO]: Request ID: b1a14a8e-09d9-433f-8042-4b98bcf7db95, Duration: 7ms
+2025-04-13T19:50:31.525Z [INFO]: Request ID: 53988b8b-2d8e-4a7e-96f7-e3f5ab43b288, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T19:50:31.531Z [INFO]: Request ID: 53988b8b-2d8e-4a7e-96f7-e3f5ab43b288, Duration: 6ms
+2025-04-13T19:54:52.423Z [INFO]: Request ID: 8b85b100-8084-4a2a-bed1-365c7011921c, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T19:54:52.427Z [INFO]: Request ID: 8b85b100-8084-4a2a-bed1-365c7011921c, Duration: 4ms
+2025-04-13T19:54:52.431Z [INFO]: Request ID: c877d12f-7226-45f1-b634-644ca5fb11ca, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T19:54:52.436Z [INFO]: Request ID: c877d12f-7226-45f1-b634-644ca5fb11ca, Duration: 5ms
+2025-04-13T19:56:08.021Z [INFO]: Request ID: 38edc2c3-edd2-4784-80fb-b57de2051e40, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T19:56:08.030Z [INFO]: Request ID: 38edc2c3-edd2-4784-80fb-b57de2051e40, Duration: 9ms
+2025-04-13T19:56:08.081Z [INFO]: Request ID: c27c781a-5287-4dc1-8ceb-5b21ff37b26e, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T19:56:08.159Z [INFO]: Request ID: c27c781a-5287-4dc1-8ceb-5b21ff37b26e, Duration: 79ms
+2025-04-13T19:56:11.194Z [INFO]: Request ID: 78627b0e-e136-4439-8450-ac9bb09b2f4f, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T19:56:11.207Z [INFO]: Request ID: 78627b0e-e136-4439-8450-ac9bb09b2f4f, Duration: 13ms
+2025-04-13T19:56:11.246Z [INFO]: Request ID: f26479db-3470-4e41-9583-c8a390c9efe8, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T19:56:11.284Z [INFO]: Request ID: f26479db-3470-4e41-9583-c8a390c9efe8, Duration: 38ms
+2025-04-13T19:56:19.488Z [INFO]: Request ID: 7b5163ec-d9ec-424d-9ec1-f1527baa4bb2, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T19:56:19.515Z [INFO]: Request ID: 7b5163ec-d9ec-424d-9ec1-f1527baa4bb2, Duration: 27ms
+2025-04-13T19:56:19.549Z [INFO]: Request ID: d8c51308-6d3a-4793-bdab-494b95e32fae, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T19:56:19.600Z [INFO]: Request ID: d8c51308-6d3a-4793-bdab-494b95e32fae, Duration: 50ms
+2025-04-13T19:57:54.431Z [INFO]: Request ID: e4d9f882-d58e-4939-a136-7c739b4111be, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T19:57:54.435Z [INFO]: Request ID: e4d9f882-d58e-4939-a136-7c739b4111be, Duration: 5ms
+2025-04-13T19:57:54.438Z [INFO]: Request ID: ff3abc3f-9790-4a91-9103-c646d3a11830, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T19:57:54.442Z [INFO]: Request ID: ff3abc3f-9790-4a91-9103-c646d3a11830, Duration: 4ms
+2025-04-13T19:57:55.440Z [INFO]: Request ID: 8a6d657d-c343-4408-ba10-7bb1ee53e0a8, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T19:57:55.446Z [INFO]: Request ID: 8a6d657d-c343-4408-ba10-7bb1ee53e0a8, Duration: 5ms
+2025-04-13T19:58:08.976Z [INFO]: Request ID: 65827d3e-43cf-4151-9fcd-8938ea842b68, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T19:58:08.984Z [INFO]: Request ID: 65827d3e-43cf-4151-9fcd-8938ea842b68, Duration: 8ms
+2025-04-13T19:58:08.990Z [INFO]: Request ID: 0b72a882-39d4-43be-9d35-a8f2b4430503, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T19:58:09.034Z [INFO]: Request ID: 0b72a882-39d4-43be-9d35-a8f2b4430503, Duration: 44ms
+2025-04-13T19:59:00.069Z [INFO]: Request ID: 59783d52-cd91-467e-ace9-73975ad2c651, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/community
+2025-04-13T19:59:00.084Z [INFO]: Request ID: 59783d52-cd91-467e-ace9-73975ad2c651, Duration: 15ms
+2025-04-13T19:59:02.849Z [INFO]: Request ID: beeaaa68-68fc-4c33-bdc8-af59f69993fb, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 POST /api/community
+2025-04-13T19:59:02.855Z [INFO]: Request ID: beeaaa68-68fc-4c33-bdc8-af59f69993fb, Duration: 6ms
+2025-04-13T20:00:45.440Z [INFO]: Request ID: f8588e49-4792-4522-8e55-a4bf95016e18, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T20:00:45.444Z [INFO]: Request ID: f8588e49-4792-4522-8e55-a4bf95016e18, Duration: 4ms
+2025-04-13T20:00:45.449Z [INFO]: Request ID: 3e14b060-e8cf-40a8-aaac-9f846184ede6, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T20:00:45.453Z [INFO]: Request ID: 3e14b060-e8cf-40a8-aaac-9f846184ede6, Duration: 4ms
+2025-04-13T20:02:08.411Z [INFO]: Request ID: ca237eb7-b503-458e-a8f0-347cf942bdb4, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T20:02:08.415Z [INFO]: Request ID: ca237eb7-b503-458e-a8f0-347cf942bdb4, Duration: 4ms
+2025-04-13T20:02:08.470Z [INFO]: Request ID: adebe080-d41b-4570-a370-eb1811beae76, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T20:02:08.476Z [INFO]: Request ID: adebe080-d41b-4570-a370-eb1811beae76, Duration: 6ms
+2025-04-13T20:02:09.477Z [INFO]: Request ID: da17298a-15a0-4431-b68f-9f55930aa309, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T20:02:09.509Z [INFO]: Request ID: da17298a-15a0-4431-b68f-9f55930aa309, Duration: 32ms
+2025-04-13T20:02:22.555Z [INFO]: Request ID: 1bc2a959-5e69-4c0b-965c-ad6636387aa2, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T20:02:22.571Z [INFO]: Request ID: 1bc2a959-5e69-4c0b-965c-ad6636387aa2, Duration: 16ms
+2025-04-13T20:02:22.577Z [INFO]: Request ID: ad21606f-fffb-4a86-b46c-b3a11f613dd5, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T20:02:22.595Z [INFO]: Request ID: ad21606f-fffb-4a86-b46c-b3a11f613dd5, Duration: 18ms
+2025-04-13T20:02:50.784Z [INFO]: Request ID: 95b5f4d3-e7e6-420c-9425-08e9d2a267ab, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T20:02:50.804Z [INFO]: Request ID: 95b5f4d3-e7e6-420c-9425-08e9d2a267ab, Duration: 20ms
+2025-04-13T20:02:50.827Z [INFO]: Request ID: b5186a7a-e343-4846-bd68-1834451da118, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T20:02:50.839Z [INFO]: Request ID: b5186a7a-e343-4846-bd68-1834451da118, Duration: 12ms
+2025-04-13T20:02:54.683Z [INFO]: Request ID: 984225e1-604f-4865-a0cf-ae4a627965ef, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T20:02:54.692Z [INFO]: Request ID: 984225e1-604f-4865-a0cf-ae4a627965ef, Duration: 9ms
+2025-04-13T20:02:54.702Z [INFO]: Request ID: 0841b4ce-89d5-4ab4-a2d5-668c0f929dff, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T20:02:54.911Z [INFO]: Request ID: 0841b4ce-89d5-4ab4-a2d5-668c0f929dff, Duration: 209ms
+2025-04-13T20:02:58.839Z [INFO]: Request ID: d0afe633-4c3d-4dbf-899c-8467b62b1b1f, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T20:02:58.847Z [INFO]: Request ID: d0afe633-4c3d-4dbf-899c-8467b62b1b1f, Duration: 8ms
+2025-04-13T20:02:58.852Z [INFO]: Request ID: 43cd32fe-9fc6-4fc4-bd1b-4d191c977da0, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T20:02:58.969Z [INFO]: Request ID: 43cd32fe-9fc6-4fc4-bd1b-4d191c977da0, Duration: 117ms
+2025-04-13T20:03:00.119Z [INFO]: Request ID: a5dbe9ed-f187-4e52-a1ff-c27e05b86c48, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T20:03:00.130Z [INFO]: Request ID: a5dbe9ed-f187-4e52-a1ff-c27e05b86c48, Duration: 11ms
+2025-04-13T20:03:00.135Z [INFO]: Request ID: 6ea4f90b-3dce-4535-9ce5-23d8e1eb90f4, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T20:03:00.181Z [INFO]: Request ID: 6ea4f90b-3dce-4535-9ce5-23d8e1eb90f4, Duration: 46ms
+2025-04-13T20:03:08.860Z [INFO]: Request ID: 1de47e6e-ce39-4cdf-ba36-929d0dfeb832, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T20:03:08.868Z [INFO]: Request ID: 1de47e6e-ce39-4cdf-ba36-929d0dfeb832, Duration: 8ms
+2025-04-13T20:03:08.873Z [INFO]: Request ID: 2280e891-3ddf-42b9-9846-fcbcd3bc9b02, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T20:03:08.983Z [INFO]: Request ID: 2280e891-3ddf-42b9-9846-fcbcd3bc9b02, Duration: 110ms
+2025-04-13T20:03:16.172Z [INFO]: Request ID: e18b9d8b-8599-47c5-98b1-a2d417704fc2, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T20:03:16.180Z [INFO]: Request ID: e18b9d8b-8599-47c5-98b1-a2d417704fc2, Duration: 8ms
+2025-04-13T20:03:16.188Z [INFO]: Request ID: e4d5e71e-9f5f-4882-8c16-96387dbebed2, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 GET /api/community
+2025-04-13T20:03:16.205Z [INFO]: Request ID: e4d5e71e-9f5f-4882-8c16-96387dbebed2, Duration: 17ms

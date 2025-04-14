@@ -9,38 +9,35 @@ import ip from 'ip';
 import { v4 as uuidv4 } from 'uuid';
 import path from 'path';
 import logger from './utils/logger.js';
+
 import donorsRoutes from './routes/donorsroute.js';
 import donationsRoutes from './routes/donationsroute.js';
-import bloodRequestRoutes from './routes/bloodRequestRoutes.js';
-import hospitalRoutes from "./routes/hospitalRoutes.js";
 import userRoutes from "./routes/userRoutes.js";
-
-const upload = multer();
+import hospitalRequestRoutes from "./routes/hospitalRequestRoutes.js";
+import communityRoutes from './routes/communityRoutes.js'; // ✅ Added Community Routes
+import HospitalRequest from './models/HospitalRequest.js';
 
 // Load environment variables
 dotenv.config();
 process.env.JWT_SECRET = process.env.JWT_SECRET || 'ILSzu94vNszyF+Dr0+27ZscBZievseRSQmbWzEF5AWI=';
 const port = process.env.PORT || 4000;
 
-// Create the Express app
 const app = express();
+const upload = multer();
 
 // Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(helmet()); // Add security headers
+app.use(helmet());
 
-// ✅ Configure CORS with explicit settings
 app.use(cors({
-  origin: '*', // Adjust this for security in production
+  origin: '*',
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   allowedHeaders: 'Content-Type,Authorization',
-  credentials: true // Allow credentials (cookies, authorization headers)
+  credentials: true
 }));
 
-// ✅ Handle preflight requests explicitly
 app.options('*', cors());
-
 app.use(express.static('public'));
 
 // Request tracking middleware
@@ -51,7 +48,6 @@ app.use((req, res, next) => {
   const startTime = Date.now();
 
   req.requestId = requestId;
-
   logger.info(`Request ID: ${requestId}, IP: ${ipAddress}, User Agent: ${userAgent} ${req.method} ${req.originalUrl}`);
 
   res.on('finish', () => {
@@ -73,10 +69,11 @@ app.get('/api/', (req, res) =>
 
 app.use('/api/donors', donorsRoutes);
 app.use('/api/donations', donationsRoutes);
-app.use("/api/blood-requests", bloodRequestRoutes);
-app.use("/api/hospitals", hospitalRoutes);
+app.use("/api/hospital-request", hospitalRequestRoutes);
 app.use("/api/users", userRoutes);
+app.use("/api/community", communityRoutes); // ✅ Community Route
 
+// 404 route
 app.all('/api/*', (req, res) =>
   res.status(404).send({
     code: 404,
@@ -85,7 +82,7 @@ app.all('/api/*', (req, res) =>
   })
 );
 
-// Error handling middleware
+// Error handler
 app.use((error, req, res, next) => {
   logger.error(`Request ID: ${req.requestId} ${req.method} ${req.originalUrl}, ${error.message}`);
 
